@@ -1,0 +1,22 @@
+.changeLanguageBtn {
+  width: 40px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.changeLanguageUk {
+  composes: changeLanguageBtn;
+  background-image: url('../../img/flag/flag-uk.png');
+}
+
+.changeLanguageRu {
+  composes: changeLanguageBtn;
+  background-image: url('../../img/flag/flag-ru.png');
+}
+
+.changeLanguageUk:focus,
+.changeLanguageRu:focus {
+  outline-color: gold;
+}
