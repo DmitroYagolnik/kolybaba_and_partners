@@ -103,7 +103,7 @@ export default class App extends Component {
                 path="/services/certificate_ISO_14001"
                 component={withServicesNavLink(CertificateISO14001)}
               />
-              {/* <Route component={withServicesNavLink(ErrorPage)} /> */}
+              <Route component={withServicesNavLink(ErrorPage)} />
             </Switch>
           </>
         </main>
