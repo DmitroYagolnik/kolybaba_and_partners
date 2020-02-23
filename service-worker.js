@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/dandelion/precache-manifest.d7761f89918d6b6811083f4513ae13d3.js"
+  "/dandelion/precache-manifest.134003c7f3cd9cf60b89558be82619d8.js"
 );
 
 self.addEventListener('message', (event) => {
