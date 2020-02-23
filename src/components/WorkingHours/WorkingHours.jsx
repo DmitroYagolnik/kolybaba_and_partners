@@ -1,21 +1,13 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import AccessTimeIcon from '@material-ui/icons/AccessTime';
+import style from './WorkingHours.module.css';
+import contactInformation from '../../additionalInformation/contactInformation.json';
 
 const WorkingHours = () => {
   return (
-    <div className="work_hours-wrapper">
-      <img
-        className="work_hours-icon"
-        // src="../src/img/working_hours-icon.png"
-
-        alt={
-          <FormattedMessage
-            id="WorkingHours.icon_alt-text"
-            defaultMessage="Час роботи"
-          />
-        }
-      />
-      <span className="working_hours-text">09:00 - 19:00</span>
+    <div className={style.WorkingHoursWrapper}>
+      <AccessTimeIcon fontSize="small" />
+      <span>{contactInformation.working_hours}</span>
     </div>
   );
 };

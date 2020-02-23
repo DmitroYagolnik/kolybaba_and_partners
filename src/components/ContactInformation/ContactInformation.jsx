@@ -1,43 +1,24 @@
 import React from 'react';
-import { FormattedMessage } from 'react-intl';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import PhoneIcon from '@material-ui/icons/Phone';
+import style from './ContactInformation.module.css';
+import contactInformation from '../../additionalInformation/contactInformation.json';
 
 const ContactInformation = () => {
   return (
     <div className="contacts_information">
-      <ul className="contacts-list">
-        <li className="contact-item">
-          <img
-            src="../src/img/email-icon.png"
-            alt="Email"
-            className="contact-icon"
-          />
-          Kulbaba_e@ukr.net
+      <ul className={style.contactsList}>
+        <li className={style.contactItem}>
+          <MailOutlineIcon fontSize="small" />
+          <span>{contactInformation.email}</span>
         </li>
-        <li className="contact-item">
-          <img
-            src="../src/img/phone-icon.png"
-            alt={
-              <FormattedMessage
-                id="PhoneNumber.icon_alt-text"
-                defaultMessage="Номер телефону"
-              />
-            }
-            className="contact-icon"
-          />
-          +38(099) 901-99-98
+        <li className={style.contactItem}>
+          <PhoneIcon fontSize="small" />
+          <span>{contactInformation.phone_number_1}</span>
         </li>
-        <li className="contact-item">
-          <img
-            src="../src/img/phone-icon.png"
-            alt={
-              <FormattedMessage
-                id="PhoneNumber.icon_alt-text"
-                defaultMessage="Номер телефону"
-              />
-            }
-            className="contact-icon"
-          />
-          +38(098) 927-81-09
+        <li className={style.contactItem}>
+          <PhoneIcon fontSize="small" />
+          <span>{contactInformation.phone_number_2}</span>
         </li>
       </ul>
     </div>

@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Occupational_health-title",
+    "img": "occupationalHealthIcon",
+    "alt": "Occupational_health.Worker_icon-alt",
+    "services": [
+      {
+        "titlePage": "Occupational_health.Declaration_MTB-link",
+        "linkPage": "/services/declaration_MTB"
+      },
+      {
+        "titlePage": "Occupational_health.Permission_use_hazardous_equipment-link",
+        "linkPage": "/services/permission_use_hazardous_equipment"
+      },
+      {
+        "titlePage": "Occupational_health.Permission_hazardous_work_and_equipment-link",
+        "linkPage": "/services/permission_hazardous_work_and_equipment"
+      },
+      {
+        "titlePage": "Occupational_health.Identification_HF_and_PHF-link",
+        "linkPage": "/services/identification_HF_and_PHF"
+      },
+      {
+        "titlePage": "Occupational_health.development_PLER-link",
+        "linkPage": "/services/development_PLER"
+      }
+    ]
+  },
+  {
+    "title": "License.License-title",
+    "img": "licenseIcon",
+    "alt": "License.License_icon-alt",
+    "services": [
+      {
+        "titlePage": "License.Medical_license-link",
+        "linkPage": "/services/medical_license"
+      },
+      {
+        "titlePage": "License.Building_license-link",
+        "linkPage": "/services/building_license"
+      },
+      {
+        "titlePage": "License.License_precursors-link",
+        "linkPage": "/services/license_precursors"
+      }
+    ]
+  },
+  {
+    "title": "Certificate_ISO.Certificate_ISO-title",
+    "img": "ISOicon",
+    "alt": "Certificate_ISO.Certificate_ISO_icon-alt",
+    "services": [
+      {
+        "titlePage": "Certificate_ISO.Certificate_ISO_9001-link",
+        "linkPage": "/services/certificate_ISO_9001"
+      },
+      {
+        "titlePage": "Certificate_ISO.Certificate_ISO_22000-link",
+        "linkPage": "/services/certificate_ISO_22000"
+      },
+      {
+        "titlePage": "Certificate_ISO.Certificate_ISO_14001-link",
+        "linkPage": "/services/certificate_ISO_14001"
+      }
+    ]
+  }
+]

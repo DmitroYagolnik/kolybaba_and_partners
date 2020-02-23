@@ -1,0 +1,12 @@
+.contactsInformationWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 400px) {
+  .contactsInformationWrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

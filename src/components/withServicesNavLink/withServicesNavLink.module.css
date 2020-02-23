@@ -1,0 +1,54 @@
+.NavBtn {
+  position: fixed;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  top: calc(50% - 10px);
+  right: 0;
+  z-index: 3;
+}
+
+.NavBtn:hover {
+  color: gold;
+  transition: color 0.6s ease-in-out;
+}
+
+.NavBtn:focus {
+  outline: none;
+}
+
+.ShowNavBtn {
+  composes: NavBtn;
+  right: 0;
+}
+
+.HideNavBtn {
+  composes: NavBtn;
+  left: 0;
+}
+
+.NavLinkWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100vh;
+  background-color: lightslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .servicePageContent {
+    display: grid;
+    grid-template-columns: 67% 33%;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .servicePageContent {
+    grid-template-columns: 75% 25%;
+  }
+}

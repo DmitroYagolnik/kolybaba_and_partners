@@ -1,27 +1,22 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import MediaQuery from 'react-responsive';
 import WorkingHours from '../WorkingHours/WorkingHours';
 import ContactInformation from '../ContactInformation/ContactInformation';
+import style from './Header.module.css';
 import logo from '../../img/Dandelion-logo.png';
 
-const Header = ({ siteLanguage }) => {
+const Header = () => {
   return (
     <header>
-      <WorkingHours />
-      <div className="logo-wrapper">
-        <img src={logo} alt="Dandelion" className="logo-img" />
-      </div>
-      <ContactInformation />
+      <MediaQuery minDeviceWidth={600}>
+        <WorkingHours />
+      </MediaQuery>
+      <img src={logo} alt="Dandelion" className={style.logoImg} />
+      <MediaQuery minDeviceWidth={600}>
+        <ContactInformation />
+      </MediaQuery>
     </header>
   );
-};
-
-Header.defaultProps = {
-  siteLanguage: 'uk',
-};
-
-Header.propTypes = {
-  siteLanguage: PropTypes.string,
 };
 
 export default Header;

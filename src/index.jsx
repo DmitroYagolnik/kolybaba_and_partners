@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { IntlProvider } from 'react-intl';
-import App from './components/App/App';
+import { BrowserRouter } from 'react-router-dom';
+import App from './components/App';
 
 ReactDOM.render(
-  <IntlProvider>
+  <BrowserRouter>
     <App />
-  </IntlProvider>,
+  </BrowserRouter>,
   document.getElementById('root'),
 );

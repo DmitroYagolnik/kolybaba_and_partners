@@ -1,0 +1,9 @@
+.WorkingHoursWrapper {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.WorkingHoursWrapper > span {
+  font-weight: bold;
+}

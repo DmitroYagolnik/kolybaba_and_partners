@@ -1,0 +1,19 @@
+{
+  "Occupational_health.Worker_icon-alt": "Иконка рабочего",
+  "Occupational_health-title": "ОХРАНА ТРУДА",
+  "Occupational_health.Declaration_MTB-link": "Декларация соответствия материально-технической базы (МТБ) требованиям законодательства по вопросам охраны труда",
+  "Occupational_health.Permission_use_hazardous_equipment-link": "Разрешение Гоструда на применение оборудования повышенной опасности",
+  "Occupational_health.Permission_hazardous_work_and_equipment-link": "Разрешение на опасные работы и оборудование",
+  "Occupational_health.Identification_HF_and_PHF-link": "Идентификация объекта повышенной опасности (ОПО) и потенциально опасного объекта (ПОО)",
+  "Occupational_health.development_PLER-link": "Разработка плана локализации и ликвидации аварийных ситуаций (ПЛАС)",
+  "License.License_icon-alt": "Иконка лицензии",
+  "License.License-title": "ЛИЦЕНЗИИ",
+  "License.Medical_license-link": "Медицинская лицензия",
+  "License.Building_license-link": "Лицензия на строительство",
+  "License.License_precursors-link": "Лицензия на прекурсоры (лицензия на наркотические вещества)",
+  "Certificate_ISO.Certificate_ISO_icon-alt": "Иконка ISO",
+  "Certificate_ISO.Certificate_ISO-title": "СЕРТИФИКАТЫ ISO",
+  "Certificate_ISO.Certificate_ISO_9001-link": "Сертификат ISO 9001:2015",
+  "Certificate_ISO.Certificate_ISO_22000-link": "Сертификат ISO 22000 (ХАССП)",
+  "Certificate_ISO.Certificate_ISO_14001-link": "Сертификат ISO 14001:2015"
+}
