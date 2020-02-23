@@ -54,7 +54,8 @@ export default class App extends Component {
           />
           <>
             <Switch>
-              <Route exact path="/" component={Services} />
+              {/* <Route exact path="/" component={Services} /> */}
+              <Route exact path="" component={Services} />
               <Route path="/about_us" component={AboutUs} />
               <Route
                 path="/services/declaration_MTB"
