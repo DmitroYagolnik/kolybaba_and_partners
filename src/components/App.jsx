@@ -54,52 +54,52 @@ export default class App extends Component {
           />
           <>
             <Switch>
-              <Route exact path="/" component={Services} />
-              <Route path="/about_us" component={AboutUs} />
+              <Route exact path="/dandelion/" component={Services} />
+              <Route path="/dandelion/about_us" component={AboutUs} />
               <Route
-                path="/services/declaration_MTB"
+                path="/dandelion/services/declaration_MTB"
                 component={withServicesNavLink(DeclarationMTB)}
               />
               <Route
-                path="/services/permission_use_hazardous_equipment"
+                path="/dandelion/services/permission_use_hazardous_equipment"
                 component={withServicesNavLink(PermissionUseHazardousEquipment)}
               />
               <Route
-                path="/services/permission_hazardous_work_and_equipment"
+                path="/dandelion/services/permission_hazardous_work_and_equipment"
                 component={withServicesNavLink(
                   PermissionHazardousWorkAndEquipmen,
                 )}
               />
               <Route
-                path="/services/identification_HF_and_PHF"
+                path="/dandelion/services/identification_HF_and_PHF"
                 component={withServicesNavLink(IdentificationHFAndPHF)}
               />
               <Route
-                path="/services/development_PLER"
+                path="/dandelion/services/development_PLER"
                 component={withServicesNavLink(DevelopmentPLER)}
               />
               <Route
-                path="/services/medical_license"
+                path="/dandelion/services/medical_license"
                 component={withServicesNavLink(MedicalLicense)}
               />
               <Route
-                path="/services/building_license"
+                path="/dandelion/services/building_license"
                 component={withServicesNavLink(BuildingLicense)}
               />
               <Route
-                path="/services/license_precursors"
+                path="/dandelion/services/license_precursors"
                 component={withServicesNavLink(LicensePrecursors)}
               />
               <Route
-                path="/services/certificate_ISO_9001"
+                path="/dandelion/services/certificate_ISO_9001"
                 component={withServicesNavLink(CertificateISO9001)}
               />
               <Route
-                path="/services/certificate_ISO_22000"
+                path="/dandelion/services/certificate_ISO_22000"
                 component={withServicesNavLink(CertificateISO22000)}
               />
               <Route
-                path="/services/certificate_ISO_14001"
+                path="/dandelion/services/certificate_ISO_14001"
                 component={withServicesNavLink(CertificateISO14001)}
               />
               <Route component={withServicesNavLink(ErrorPage)} />
