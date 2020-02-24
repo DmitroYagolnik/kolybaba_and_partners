@@ -11,13 +11,6 @@ const PageNavLink = ({ siteLanguage, changeLanguage }) => {
     <nav className={style.nav}>
       <ul className={style.navList}>
         <li className={style.navLink}>
-          {/* <NavLink exact to="/">
-            {t('PageNavLink.Home_page')}
-          </NavLink>
-        </li>
-        <li className={style.navLink}>
-          <NavLink to="/services">{t('PageNavLink.Services')}</NavLink>
-        </li> */}
           <NavLink to="/about_us">{t('PageNavLink.AboutUs_page')}</NavLink>
         </li>
         <li className={style.navLink}>
