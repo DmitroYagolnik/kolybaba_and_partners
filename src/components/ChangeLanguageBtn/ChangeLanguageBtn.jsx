@@ -9,7 +9,7 @@ import style from './ChangeLanguageBtn.module.css';
 // };
 
 const ChangeLanguageBtn = ({ changeLanguage, siteLanguage }) => {
-  const styleIndicatorUA =
+  const styleIndicatorUK =
     siteLanguage === 'uk' ? style.activeIndicator : style.passiveIndicator;
   const styleIndicatorRU =
     siteLanguage === 'ru' ? style.activeIndicator : style.passiveIndicator;
@@ -19,7 +19,7 @@ const ChangeLanguageBtn = ({ changeLanguage, siteLanguage }) => {
       onClick={changeLanguage}
       className={style.changeLanguageBtn}
     >
-      <span className={styleIndicatorUA}>UA</span>/
+      <span className={styleIndicatorUK}>UK</span>/
       <span className={styleIndicatorRU}>RU</span>
     </button>
   );
