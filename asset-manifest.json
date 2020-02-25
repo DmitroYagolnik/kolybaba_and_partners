@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dandelion/static/css/main.7fd3c328.chunk.css",
-    "main.js": "/dandelion/static/js/main.91faa59f.chunk.js",
-    "main.js.map": "/dandelion/static/js/main.91faa59f.chunk.js.map",
+    "main.js": "/dandelion/static/js/main.aed6a20b.chunk.js",
+    "main.js.map": "/dandelion/static/js/main.aed6a20b.chunk.js.map",
     "runtime-main.js": "/dandelion/static/js/runtime-main.975f953c.js",
     "runtime-main.js.map": "/dandelion/static/js/runtime-main.975f953c.js.map",
     "static/js/2.18d16e2b.chunk.js": "/dandelion/static/js/2.18d16e2b.chunk.js",
     "static/js/2.18d16e2b.chunk.js.map": "/dandelion/static/js/2.18d16e2b.chunk.js.map",
     "index.html": "/dandelion/index.html",
-    "precache-manifest.29504496327c7df15d7646218ecbdf62.js": "/dandelion/precache-manifest.29504496327c7df15d7646218ecbdf62.js",
+    "precache-manifest.0638b3bc2d89ea6f4986a37c27c7bd25.js": "/dandelion/precache-manifest.0638b3bc2d89ea6f4986a37c27c7bd25.js",
     "service-worker.js": "/dandelion/service-worker.js",
     "static/css/main.7fd3c328.chunk.css.map": "/dandelion/static/css/main.7fd3c328.chunk.css.map",
     "static/media/Dandelion-logo.png": "/dandelion/static/media/Dandelion-logo.a9411b19.png",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.975f953c.js",
     "static/js/2.18d16e2b.chunk.js",
     "static/css/main.7fd3c328.chunk.css",
-    "static/js/main.91faa59f.chunk.js"
+    "static/js/main.aed6a20b.chunk.js"
   ]
 }
