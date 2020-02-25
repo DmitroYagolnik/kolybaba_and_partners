@@ -1,4 +1,4 @@
-.changeLanguageBtn {
+/* .changeLanguageBtn {
   width: 40px;
   height: 30px;
   background-repeat: no-repeat;
@@ -19,4 +19,60 @@
 .changeLanguageUk:focus,
 .changeLanguageRu:focus {
   outline-color: gold;
+} */
+
+.changeLanguageBtn {
+  cursor: pointer;
+  height: 26px;
+  font-size: 16px;
+  line-height: 0;
+  margin: 5px auto;
+  padding: 0 5px;
+  border: 1px solid initial;
+  border-radius: 10px;
+  text-shadow: 1px 1px initial;
+}
+
+.changeLanguageBtn:hover {
+  border-color: gold;
+}
+
+.changeLanguageBtn:focus {
+  outline: none;
+}
+
+.activeIndicator {
+  color: gold;
+  text-shadow: 1px 1px #000000;
+  font-weight: bolder;
+  padding: 2px;
+}
+
+.passiveIndicator {
+  color: gray;
+  font-weight: lighter;
+  padding: 2px;
+  text-shadow: 1px 1px initial;
+}
+
+@media (min-width: 768px) {
+  .changeLanguageBtn {
+    font-size: 18px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .changeLanguageBtn {
+    font-size: 22px;
+    height: 35px;
+  }
+
+  .activeIndicator {
+    padding: 5px;
+  }
+
+  .passiveIndicator {
+    padding: 5px;
+  }
 }
