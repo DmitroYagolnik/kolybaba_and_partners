@@ -2,16 +2,18 @@
   position: fixed;
   cursor: pointer;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
   top: calc(50% - 10px);
   right: 0;
   z-index: 3;
+  color: black;
+  border-color: initial;
+  transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out;
 }
 
 .NavBtn:hover {
-  color: gold;
-  transition: color 0.6s ease-in-out;
+  color: darkorange;
+  border-color: gold;
+  transition: color 0.6s ease-in-out, border-color 0.6s ease-in-out;
 }
 
 .NavBtn:focus {
@@ -21,11 +23,13 @@
 .ShowNavBtn {
   composes: NavBtn;
   right: 0;
+  opacity: 0.6;
 }
 
 .HideNavBtn {
   composes: NavBtn;
   left: 0;
+  transform: rotate(180deg);
 }
 
 .NavLinkWrapper {

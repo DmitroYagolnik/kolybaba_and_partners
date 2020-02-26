@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Media from 'react-media';
+import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import ServicesPageNavLink from '../ServicesPageNavLink/ServicesPageNavLink';
 import style from './withServicesNavLink.module.css';
 
@@ -42,7 +43,10 @@ const withServicesNavLink = ServicePage => {
                       onClick={this.toggleNavLinks}
                       className={btnClass}
                     >
-                      X
+                      <KeyboardArrowLeftIcon
+                        className={style.NavBtnIcon}
+                        fontSize="medium"
+                      />
                     </button>
                   </div>
                 )}
