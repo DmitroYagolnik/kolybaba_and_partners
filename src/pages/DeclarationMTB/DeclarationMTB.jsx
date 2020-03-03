@@ -6,7 +6,7 @@ const DeclarationMTB = () => {
   return (
     <>
       <h2 className="page_services-title">
-        {t('DeclarationMTB.Page_services-title')}
+        {t('Occupational_health.Declaration_MTB-link')}
       </h2>
       <p className="page-text">{t('DeclarationMTB.paragraph_1')}</p>
       <p className="page-text">

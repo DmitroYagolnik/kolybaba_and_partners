@@ -3,9 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import Header from './Header/Header';
 import PageNavLink from './PageNavLink/PageNavLink';
 import Footer from './Footer/Footer';
-//
 import withServicesNavLink from './withServicesNavLink/withServicesNavLink';
-//
 import AboutUs from '../pages/AboutUs/AboutUs';
 import Services from '../pages/Services/Services';
 import DeclarationMTB from '../pages/DeclarationMTB/DeclarationMTB';

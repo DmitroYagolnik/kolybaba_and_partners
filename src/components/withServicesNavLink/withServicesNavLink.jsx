@@ -45,7 +45,7 @@ const withServicesNavLink = ServicePage => {
                     >
                       <KeyboardArrowLeftIcon
                         className={style.NavBtnIcon}
-                        fontSize="medium"
+                        fontSize="default"
                       />
                     </button>
                   </div>
