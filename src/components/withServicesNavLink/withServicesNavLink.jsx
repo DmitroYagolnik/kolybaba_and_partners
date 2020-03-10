@@ -3,12 +3,20 @@ import Media from 'react-media';
 import KeyboardArrowLeftIcon from '@material-ui/icons/KeyboardArrowLeft';
 import ServicesPageNavLink from '../ServicesPageNavLink/ServicesPageNavLink';
 import style from './withServicesNavLink.module.css';
+import i18n from '../../i18n';
 
 const withServicesNavLink = ServicePage => {
   return class WithServicesNavLink extends Component {
     state = {
       isOpenNavLinks: false,
+      siteLanguage: '',
     };
+
+    componentDidMount() {
+      this.setState({
+        siteLanguage: i18n.language,
+      });
+    }
 
     toggleNavLinks = () => {
       this.setState(prevState => ({

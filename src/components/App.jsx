@@ -20,10 +20,11 @@ import CertificateISO14001 from '../pages/CertificateISO14001/CertificateISO1400
 import ErrorPage from '../pages/ErrorPage/ErrorPage';
 import '../index.css';
 import i18n from '../i18n';
+import language from '../utils/language';
 
 export default class App extends Component {
   state = {
-    siteLanguage: 'uk',
+    siteLanguage: language.UkrainianLanguage,
   };
 
   componentDidUpdate(prevProps, prevState) {
@@ -33,10 +34,13 @@ export default class App extends Component {
     }
   }
 
-  handleChange = () => {
-    this.state.siteLanguage === 'uk'
-      ? this.setState({ siteLanguage: 'ru' })
-      : this.setState({ siteLanguage: 'uk' });
+  toggleLanguage = () => {
+    this.setState(state => ({
+      siteLanguage:
+        state.siteLanguage === language.UkrainianLanguage
+          ? language.RussianLanguage
+          : language.UkrainianLanguage,
+    }));
   };
 
   render() {
@@ -47,62 +51,60 @@ export default class App extends Component {
         <Header />
         <main>
           <PageNavLink
-            changeLanguage={this.handleChange}
+            changeLanguage={this.toggleLanguage}
             siteLanguage={siteLanguage}
           />
-          <>
-            <Switch>
-              <Route exact path="/dandelion/" component={Services} />
-              <Route path="/dandelion/about_us" component={AboutUs} />
-              <Route
-                path="/dandelion/services/declaration_MTB"
-                component={withServicesNavLink(DeclarationMTB)}
-              />
-              <Route
-                path="/dandelion/services/permission_use_hazardous_equipment"
-                component={withServicesNavLink(PermissionUseHazardousEquipment)}
-              />
-              <Route
-                path="/dandelion/services/permission_hazardous_work_and_equipment"
-                component={withServicesNavLink(
-                  PermissionHazardousWorkAndEquipmen,
-                )}
-              />
-              <Route
-                path="/dandelion/services/identification_HF_and_PHF"
-                component={withServicesNavLink(IdentificationHFAndPHF)}
-              />
-              <Route
-                path="/dandelion/services/development_PLER"
-                component={withServicesNavLink(DevelopmentPLER)}
-              />
-              <Route
-                path="/dandelion/services/medical_license"
-                component={withServicesNavLink(MedicalLicense)}
-              />
-              <Route
-                path="/dandelion/services/building_license"
-                component={withServicesNavLink(BuildingLicense)}
-              />
-              <Route
-                path="/dandelion/services/license_precursors"
-                component={withServicesNavLink(LicensePrecursors)}
-              />
-              <Route
-                path="/dandelion/services/certificate_ISO_9001"
-                component={withServicesNavLink(CertificateISO9001)}
-              />
-              <Route
-                path="/dandelion/services/certificate_ISO_22000"
-                component={withServicesNavLink(CertificateISO22000)}
-              />
-              <Route
-                path="/dandelion/services/certificate_ISO_14001"
-                component={withServicesNavLink(CertificateISO14001)}
-              />
-              <Route component={withServicesNavLink(ErrorPage)} />
-            </Switch>
-          </>
+          <Switch>
+            <Route exact path="/dandelion/" component={Services} />
+            <Route path="/dandelion/about_us" component={AboutUs} />
+            <Route
+              path="/dandelion/services/declaration_MTB"
+              component={withServicesNavLink(DeclarationMTB)}
+            />
+            <Route
+              path="/dandelion/services/permission_use_hazardous_equipment"
+              component={withServicesNavLink(PermissionUseHazardousEquipment)}
+            />
+            <Route
+              path="/dandelion/services/permission_hazardous_work_and_equipment"
+              component={withServicesNavLink(
+                PermissionHazardousWorkAndEquipmen,
+              )}
+            />
+            <Route
+              path="/dandelion/services/identification_HF_and_PHF"
+              component={withServicesNavLink(IdentificationHFAndPHF)}
+            />
+            <Route
+              path="/dandelion/services/development_PLER"
+              component={withServicesNavLink(DevelopmentPLER)}
+            />
+            <Route
+              path="/dandelion/services/medical_license"
+              component={withServicesNavLink(MedicalLicense)}
+            />
+            <Route
+              path="/dandelion/services/building_license"
+              component={withServicesNavLink(BuildingLicense)}
+            />
+            <Route
+              path="/dandelion/services/license_precursors"
+              component={withServicesNavLink(LicensePrecursors)}
+            />
+            <Route
+              path="/dandelion/services/certificate_ISO_9001"
+              component={withServicesNavLink(CertificateISO9001)}
+            />
+            <Route
+              path="/dandelion/services/certificate_ISO_22000"
+              component={withServicesNavLink(CertificateISO22000)}
+            />
+            <Route
+              path="/dandelion/services/certificate_ISO_14001"
+              component={withServicesNavLink(CertificateISO14001)}
+            />
+            <Route component={withServicesNavLink(ErrorPage)} />
+          </Switch>
         </main>
         <Footer />
       </>
