@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fbd457f57f0bc1196cbbcdf44b76c591",
+    "revision": "28c5da4091e8a98fceb494a30098f490",
     "url": "/dandelion/index.html"
   },
   {
-    "revision": "cebd6498b86a729b8bf8",
-    "url": "/dandelion/static/css/main.9b59d878.chunk.css"
+    "revision": "df42eb5a75deffdd3a8c",
+    "url": "/dandelion/static/css/main.13cba235.chunk.css"
   },
   {
-    "revision": "ef5878ae35d9a5fad085",
-    "url": "/dandelion/static/js/2.1eece534.chunk.js"
+    "revision": "ea4e9d8434b3a688b781",
+    "url": "/dandelion/static/js/2.1b4c79d6.chunk.js"
   },
   {
-    "revision": "cebd6498b86a729b8bf8",
-    "url": "/dandelion/static/js/main.278263ea.chunk.js"
+    "revision": "df42eb5a75deffdd3a8c",
+    "url": "/dandelion/static/js/main.533d64c8.chunk.js"
   },
   {
     "revision": "6afbc7c31f738172e2eb",
