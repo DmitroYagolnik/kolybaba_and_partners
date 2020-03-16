@@ -8,7 +8,7 @@ const Footer = () => {
   const { t } = useTranslation();
   return (
     <footer>
-      <h3>{t('Footer.title')}</h3>
+      <h3 className={style.footerTitle}>{t('Footer.title')}</h3>
       <div className={style.contactsInformationWrapper}>
         <WorkingHours />
         <ContactInformation />

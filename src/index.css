@@ -147,6 +147,11 @@ footer {
   .content .page_text_list-item {
     font-size: 18px;
   }
+
+  p::first-letter,
+  span::first-letter {
+    padding-left: 15px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -155,5 +160,10 @@ footer {
   span,
   a {
     font-size: 20px;
+  }
+
+  p::first-letter,
+  span::first-letter {
+    padding-left: 20px;
   }
 }

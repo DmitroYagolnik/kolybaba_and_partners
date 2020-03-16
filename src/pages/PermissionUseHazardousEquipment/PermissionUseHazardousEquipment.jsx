@@ -24,7 +24,7 @@ const PermissionUseHazardousEquipment = () => {
         {t('PermissionUseHazardousEquipment.paragraph_2.part_3')}
       </p>
       <p className="page-text">
-        {t('PermissionUseHazardousEquipment.paragraph_3')}
+        <strong>{t('PermissionUseHazardousEquipment.paragraph_3')}</strong>
       </p>
       <ul className="page_text-list">
         <li className="page_text_list-item">
@@ -44,7 +44,7 @@ const PermissionUseHazardousEquipment = () => {
         {t('PermissionUseHazardousEquipment.paragraph_5')}
       </p>
       <p className="page-text">
-        {t('PermissionUseHazardousEquipment.paragraph_6')}
+        <strong>{t('PermissionUseHazardousEquipment.paragraph_6')}</strong>
       </p>
       <ul className="page_text-list">
         <li className="page_text_list-item">

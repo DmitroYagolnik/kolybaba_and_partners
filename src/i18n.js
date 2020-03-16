@@ -18,6 +18,8 @@ import DeclarationMTBTranslationUk from './pages/DeclarationMTB/translations/Dec
 import DeclarationMTBTranslationRu from './pages/DeclarationMTB/translations/DeclarationMTBTranslationRu.json';
 import PermissionUseHazardousEquipmentUk from './pages/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentUk.json';
 import PermissionUseHazardousEquipmentRu from './pages/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentRu.json';
+import PermissionHazardousWorkAndEquipmenUk from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenUk.json';
+import PermissionHazardousWorkAndEquipmenRu from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenRu.json';
 
 i18n
   .use(XHR)
@@ -34,6 +36,7 @@ i18n
           ...ServicesPageTranslationUk,
           ...DeclarationMTBTranslationUk,
           ...PermissionUseHazardousEquipmentUk,
+          ...PermissionHazardousWorkAndEquipmenUk,
         },
       },
       ru: {
@@ -46,6 +49,7 @@ i18n
           ...ServicesPageTranslationRu,
           ...DeclarationMTBTranslationRu,
           ...PermissionUseHazardousEquipmentRu,
+          ...PermissionHazardousWorkAndEquipmenRu,
         },
       },
     },

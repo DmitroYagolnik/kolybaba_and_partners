@@ -4,6 +4,11 @@
   align-items: center;
 }
 
+.footerTitle {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
 @media (min-width: 400px) {
   .contactsInformationWrapper {
     flex-direction: row;
