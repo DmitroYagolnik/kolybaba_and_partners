@@ -20,6 +20,8 @@ import PermissionUseHazardousEquipmentUk from './pages/PermissionUseHazardousEqu
 import PermissionUseHazardousEquipmentRu from './pages/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentRu.json';
 import PermissionHazardousWorkAndEquipmenUk from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenUk.json';
 import PermissionHazardousWorkAndEquipmenRu from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenRu.json';
+import IdentificationHFAndPHFUk from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFUk.json';
+import IdentificationHFAndPHFRu from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFRu.json';
 
 i18n
   .use(XHR)
@@ -37,6 +39,7 @@ i18n
           ...DeclarationMTBTranslationUk,
           ...PermissionUseHazardousEquipmentUk,
           ...PermissionHazardousWorkAndEquipmenUk,
+          ...IdentificationHFAndPHFUk,
         },
       },
       ru: {
@@ -50,6 +53,7 @@ i18n
           ...DeclarationMTBTranslationRu,
           ...PermissionUseHazardousEquipmentRu,
           ...PermissionHazardousWorkAndEquipmenRu,
+          ...IdentificationHFAndPHFRu,
         },
       },
     },
