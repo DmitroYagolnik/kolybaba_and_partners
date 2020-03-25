@@ -47,12 +47,22 @@
   .servicePageContent {
     display: grid;
     grid-template-columns: 67% 33%;
-    align-items: center;
+    align-items: stretch;
+  }
+
+  .NavContent {
+    border-left: 1px solid #cc9966;
   }
 }
 
 @media (min-width: 1200px) {
   .servicePageContent {
     grid-template-columns: 75% 25%;
+  }
+
+  .NavContent {
+    border-width: 2px;
+    display: flex;
+    align-items: center;
   }
 }

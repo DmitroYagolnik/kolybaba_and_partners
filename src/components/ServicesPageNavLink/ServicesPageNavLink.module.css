@@ -86,10 +86,6 @@
   .LinkArticleList {
     font-size: 18px;
   }
-
-  .NavLinkServicesWrapper {
-    border-left: 1px solid #cc9966;
-  }
 }
 
 @media (min-width: 1200px) {
