@@ -4,6 +4,7 @@ import Header from './Header/Header';
 import PageNavLink from './PageNavLink/PageNavLink';
 import Footer from './Footer/Footer';
 import withServicesNavLink from './withServicesNavLink/withServicesNavLink';
+import routes from '../servises/routes';
 import '../index.css';
 import i18n from '../i18n';
 import language from '../servises/language';
@@ -82,55 +83,55 @@ export default class App extends Component {
           />
           <Suspense fallback={<div>Loading...</div>}>
             <Switch>
-              <Route exact path="/dandelion" component={Services} />
-              <Route path="/dandelion/about_us" component={AboutUs} />
+              <Route exact path={routes.SERVICES} component={Services} />
+              <Route path={routes.ABOUT_US} component={AboutUs} />
               <Route
-                path="/dandelion/services/declaration_MTB"
+                path={routes.DECLARATION_MTB}
                 component={withServicesNavLink(DeclarationMTB)}
               />
               <Route
-                path="/dandelion/services/permission_use_hazardous_equipment"
+                path={routes.PERMISSION_USE_HAZARDOUS_EQUIPMENT}
                 component={withServicesNavLink(PermissionUseHazardousEquipment)}
               />
               <Route
-                path="/dandelion/services/permission_hazardous_work_and_equipment"
+                path={routes.PERMISSION_HAZARDOUS_WORK_AND_EQUIPMENT}
                 component={withServicesNavLink(
                   PermissionHazardousWorkAndEquipmen,
                 )}
               />
               <Route
-                path="/dandelion/services/identification_HF_and_PHF"
+                path={routes.IDENTIFICATION_HF_AND_PHF}
                 component={withServicesNavLink(IdentificationHFAndPHF)}
               />
               <Route
-                path="/dandelion/services/development_PLER"
+                path={routes.DEVELOPMENT_PLER}
                 component={withServicesNavLink(DevelopmentPLER)}
               />
               <Route
-                path="/dandelion/services/medical_license"
+                path={routes.MEDICAL_LICENSE}
                 component={withServicesNavLink(MedicalLicense)}
               />
               <Route
-                path="/dandelion/services/building_license"
+                path={routes.BUILDING_LICENSE}
                 component={withServicesNavLink(BuildingLicense)}
               />
               <Route
-                path="/dandelion/services/license_precursors"
+                path={routes.LICENSE_PRECURSORS}
                 component={withServicesNavLink(LicensePrecursors)}
               />
               <Route
-                path="/dandelion/services/certificate_ISO_9001"
+                path={routes.CERTIFICATE_ISO_9001}
                 component={withServicesNavLink(CertificateISO9001)}
               />
               <Route
-                path="/dandelion/services/certificate_ISO_22000"
+                path={routes.CERTIFICATE_ISO_22000}
                 component={withServicesNavLink(CertificateISO22000)}
               />
               <Route
-                path="/dandelion/services/certificate_ISO_14001"
+                path={routes.CERTIFICATE_ISO_14001}
                 component={withServicesNavLink(CertificateISO14001)}
               />
-              <Redirect to="/dandelion" />
+              <Redirect to={routes.SERVICES} />
             </Switch>
           </Suspense>
         </main>
