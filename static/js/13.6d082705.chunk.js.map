@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/MedicalLicense/MedicalLicense.jsx"],"names":["MedicalLicense"],"mappings":"yGAAA,2BAIeA,UAFQ,kBAAM","file":"static/js/13.6d082705.chunk.js","sourcesContent":["import React from 'react';\n\nconst MedicalLicense = () => <p>Медична ліцензія</p>;\n\nexport default MedicalLicense;\n"],"sourceRoot":""}
