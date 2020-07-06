@@ -2,7 +2,7 @@ import React from 'react';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneIcon from '@material-ui/icons/Phone';
 import style from './ContactInformation.module.css';
-import contactInformation from '../../additionalInformation/contactInformation.json';
+import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 
 const ContactInformation = () => {
   return (

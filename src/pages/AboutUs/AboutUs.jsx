@@ -2,7 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import SiteDescription from '../../components/SiteDescription/SiteDescription';
 import KulbabaFoto from '../../img/Kulbaba-foto.png';
-import contactInformation from '../../additionalInformation/contactInformation.json';
+import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 
 const AboutUs = () => {
   const { t } = useTranslation();

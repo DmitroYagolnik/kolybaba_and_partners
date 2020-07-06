@@ -6,7 +6,7 @@ import Footer from './Footer/Footer';
 import withServicesNavLink from './withServicesNavLink/withServicesNavLink';
 import '../index.css';
 import i18n from '../i18n';
-import language from '../utils/language';
+import language from '../servises/language';
 
 const AboutUs = lazy(() => import('../pages/AboutUs/AboutUs'));
 const Services = lazy(() => import('../pages/Services/Services'));

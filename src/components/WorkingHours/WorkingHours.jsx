@@ -1,7 +1,7 @@
 import React from 'react';
 import AccessTimeIcon from '@material-ui/icons/AccessTime';
 import style from './WorkingHours.module.css';
-import contactInformation from '../../additionalInformation/contactInformation.json';
+import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 
 const WorkingHours = () => {
   return (

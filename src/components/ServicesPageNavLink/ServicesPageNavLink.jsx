@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
-import PagesLinks from '../../additionalInformation/additionalPagesLinks.json';
-import chooseImgIcon from '../../utils/chooseImgIcon';
+import PagesLinks from '../../servises/additionalInformation/additionalPagesLinks.json';
+import chooseImgIcon from '../../servises/chooseImgIcon';
 import style from './ServicesPageNavLink.module.css';
 
 const ServicesPageNavLink = ({ hasImg, isNavLink }) => {
