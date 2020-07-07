@@ -27,6 +27,7 @@ const withServicesNavLink = ServicePage => {
     render() {
       const { isOpenNavLinks } = this.state;
       const btnClass = isOpenNavLinks ? style.HideNavBtn : style.ShowNavBtn;
+      const noMobileContent = `content ${style.noMobileContent}`;
       return (
         <>
           <Media
@@ -60,7 +61,8 @@ const withServicesNavLink = ServicePage => {
                 )}
                 {matches.noMobile && (
                   <div className={style.servicePageContent}>
-                    <div className="content">
+                    {/* <div className="content"> */}
+                    <div className={noMobileContent}>
                       <ServicePage />
                     </div>
                     <div className={style.NavContent}>

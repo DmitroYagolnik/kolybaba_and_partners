@@ -46,8 +46,13 @@
 @media (min-width: 768px) {
   .servicePageContent {
     display: grid;
-    grid-template-columns: 67% 33%;
+    grid-template-columns: 3fr 1fr;
     align-items: stretch;
+  }
+
+  .noMobileContent {
+    display: grid;
+    align-content: center;
   }
 
   .NavContent {
@@ -57,7 +62,7 @@
 
 @media (min-width: 1200px) {
   .servicePageContent {
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 4fr 1fr;
   }
 
   .NavContent {
