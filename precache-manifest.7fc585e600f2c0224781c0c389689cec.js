@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "05dfa4391eaefbcad7db5ecd9770df89",
+    "revision": "4fd365d1a06f0613a25bbe8f27e45aef",
     "url": "/dandelion/index.html"
   },
   {
-    "revision": "75c775526045466755d3",
-    "url": "/dandelion/static/css/main.443f3325.chunk.css"
+    "revision": "b8025e112de7849fa810",
+    "url": "/dandelion/static/css/main.bd25633c.chunk.css"
   },
   {
     "revision": "8448d82f00c4d83d9d20",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dandelion/static/js/2.2c8b3e2e.chunk.js"
   },
   {
-    "revision": "6b527a076f1cfe66ec2a",
-    "url": "/dandelion/static/js/3.eaed3fcb.chunk.js"
+    "revision": "0e308e62fecee6e5944f",
+    "url": "/dandelion/static/js/3.d76b66c6.chunk.js"
   },
   {
     "revision": "57975051ebdbe29794d9",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dandelion/static/js/9.0a251c47.chunk.js"
   },
   {
-    "revision": "75c775526045466755d3",
-    "url": "/dandelion/static/js/main.6ce8ab5b.chunk.js"
+    "revision": "b8025e112de7849fa810",
+    "url": "/dandelion/static/js/main.1f77219e.chunk.js"
   },
   {
-    "revision": "7686395a067365ba9d67",
-    "url": "/dandelion/static/js/runtime-main.8be816c4.js"
+    "revision": "366b86df449ccfb26e90",
+    "url": "/dandelion/static/js/runtime-main.8719c4e5.js"
   },
   {
     "revision": "a9411b19da04aa84e80f41b822a5f01d",
