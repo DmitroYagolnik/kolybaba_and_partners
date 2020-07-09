@@ -36,8 +36,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  min-height: 100vh;
-  background-color: lightslategrey;
+  background-color: seagreen;
   display: flex;
   justify-content: center;
   align-items: center;

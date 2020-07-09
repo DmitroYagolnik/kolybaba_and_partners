@@ -61,7 +61,6 @@ const withServicesNavLink = ServicePage => {
                 )}
                 {matches.noMobile && (
                   <div className={style.servicePageContent}>
-                    {/* <div className="content"> */}
                     <div className={noMobileContent}>
                       <ServicePage />
                     </div>
