@@ -38,7 +38,7 @@ class Header extends Component {
         <MediaQuery minDeviceWidth={600}>
           <Transition
             typeTransition="SladeRightTransition"
-            isShow={!isShowHeaderComponent}
+            isShow={isShowHeaderComponent}
           >
             <ContactInformation />
           </Transition>
