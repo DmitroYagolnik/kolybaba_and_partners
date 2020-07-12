@@ -22,6 +22,12 @@ import PermissionHazardousWorkAndEquipmenUk from './pages/PermissionHazardousWor
 import PermissionHazardousWorkAndEquipmenRu from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenRu.json';
 import IdentificationHFAndPHFUk from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFUk.json';
 import IdentificationHFAndPHFRu from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFRu.json';
+import DevelopmentPLERTranslationUk from './pages/DevelopmentPLER/translations/DevelopmentPLERTranslationUk.json';
+import DevelopmentPLERTranslationRu from './pages/DevelopmentPLER/translations/DevelopmentPLERTranslationRu.json';
+import MedicalLicenseTranslationUk from './pages/MedicalLicense/translations/MedicalLicenseTranslationUk.json';
+import MedicalLicenseTranslationRu from './pages/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
+import BuildingLicenseTranslationUk from './pages/BuildingLicense/translations/BuildingLicenseTranslationUk.json';
+import BuildingLicenseTranslationRu from './pages/BuildingLicense/translations/BuildingLicenseTranslationRu.json';
 
 i18n
   .use(XHR)
@@ -40,6 +46,9 @@ i18n
           ...PermissionUseHazardousEquipmentUk,
           ...PermissionHazardousWorkAndEquipmenUk,
           ...IdentificationHFAndPHFUk,
+          ...DevelopmentPLERTranslationUk,
+          ...MedicalLicenseTranslationUk,
+          ...BuildingLicenseTranslationUk,
         },
       },
       ru: {
@@ -54,6 +63,9 @@ i18n
           ...PermissionUseHazardousEquipmentRu,
           ...PermissionHazardousWorkAndEquipmenRu,
           ...IdentificationHFAndPHFRu,
+          ...DevelopmentPLERTranslationRu,
+          ...MedicalLicenseTranslationRu,
+          ...BuildingLicenseTranslationRu,
         },
       },
     },
