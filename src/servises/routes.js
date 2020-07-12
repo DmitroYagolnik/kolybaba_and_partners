@@ -9,7 +9,6 @@ const routes = {
   IDENTIFICATION_HF_AND_PHF: '/dandelion/services/identification_HF_and_PHF',
   DEVELOPMENT_PLER: '/dandelion/services/development_PLER',
   MEDICAL_LICENSE: '/dandelion/services/medical_license',
-  BUILDING_LICENSE: '/dandelion/services/building_license',
   LICENSE_PRECURSORS: '/dandelion/services/license_precursors',
   CERTIFICATE_ISO_9001: '/dandelion/services/certificate_ISO_9001',
   CERTIFICATE_ISO_22000: '/dandelion/services/certificate_ISO_22000',

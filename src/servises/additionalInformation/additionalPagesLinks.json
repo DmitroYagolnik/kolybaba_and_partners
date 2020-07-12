@@ -36,10 +36,6 @@
         "linkPage": "/dandelion/services/medical_license"
       },
       {
-        "titlePage": "License.Building_license-link",
-        "linkPage": "/dandelion/services/building_license"
-      },
-      {
         "titlePage": "License.License_precursors-link",
         "linkPage": "/dandelion/services/license_precursors"
       }

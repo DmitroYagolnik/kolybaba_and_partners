@@ -26,8 +26,6 @@ import DevelopmentPLERTranslationUk from './pages/DevelopmentPLER/translations/D
 import DevelopmentPLERTranslationRu from './pages/DevelopmentPLER/translations/DevelopmentPLERTranslationRu.json';
 import MedicalLicenseTranslationUk from './pages/MedicalLicense/translations/MedicalLicenseTranslationUk.json';
 import MedicalLicenseTranslationRu from './pages/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
-import BuildingLicenseTranslationUk from './pages/BuildingLicense/translations/BuildingLicenseTranslationUk.json';
-import BuildingLicenseTranslationRu from './pages/BuildingLicense/translations/BuildingLicenseTranslationRu.json';
 
 i18n
   .use(XHR)
@@ -48,7 +46,6 @@ i18n
           ...IdentificationHFAndPHFUk,
           ...DevelopmentPLERTranslationUk,
           ...MedicalLicenseTranslationUk,
-          ...BuildingLicenseTranslationUk,
         },
       },
       ru: {
@@ -65,7 +62,6 @@ i18n
           ...IdentificationHFAndPHFRu,
           ...DevelopmentPLERTranslationRu,
           ...MedicalLicenseTranslationRu,
-          ...BuildingLicenseTranslationRu,
         },
       },
     },

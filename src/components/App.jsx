@@ -33,9 +33,6 @@ const DevelopmentPLER = lazy(() =>
 const MedicalLicense = lazy(() =>
   import('../pages/MedicalLicense/MedicalLicense'),
 );
-const BuildingLicense = lazy(() =>
-  import('../pages/BuildingLicense/BuildingLicense'),
-);
 const LicensePrecursors = lazy(() =>
   import('../pages/LicensePrecursors/LicensePrecursors'),
 );
@@ -110,10 +107,6 @@ export default class App extends Component {
               <Route
                 path={routes.MEDICAL_LICENSE}
                 component={withServicesNavLink(MedicalLicense)}
-              />
-              <Route
-                path={routes.BUILDING_LICENSE}
-                component={withServicesNavLink(BuildingLicense)}
               />
               <Route
                 path={routes.LICENSE_PRECURSORS}
