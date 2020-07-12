@@ -1,0 +1,2 @@
+(this.webpackJsonpdandelion=this.webpackJsonpdandelion||[]).push([[7],{133:function(n,e,t){"use strict";t.r(e);var a=t(0),i=t.n(a);e.default=function(){return i.a.createElement("p",null,"\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442 ISO 22000 (\u0425\u0410\u0421\u0421\u041f)")}}}]);
+//# sourceMappingURL=7.49e1e11c.chunk.js.map

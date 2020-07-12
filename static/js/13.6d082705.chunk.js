@@ -1,2 +1,0 @@
-(this.webpackJsonpdandelion=this.webpackJsonpdandelion||[]).push([[13],{117:function(n,e,t){"use strict";t.r(e);var a=t(0),i=t.n(a);e.default=function(){return i.a.createElement("p",null,"\u041c\u0435\u0434\u0438\u0447\u043d\u0430 \u043b\u0456\u0446\u0435\u043d\u0437\u0456\u044f")}}}]);
-//# sourceMappingURL=13.6d082705.chunk.js.map
