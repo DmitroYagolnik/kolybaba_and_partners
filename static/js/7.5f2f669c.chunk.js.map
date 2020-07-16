@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/CertificateISO9001/CertificateISO9001.jsx"],"names":["CertificateISO9001"],"mappings":"wGAAA,2BAIeA,UAFY,kBAAM","file":"static/js/7.5f2f669c.chunk.js","sourcesContent":["import React from 'react';\n\nconst CertificateISO9001 = () => <p>Сертифікат ISO 9001:2015</p>;\n\nexport default CertificateISO9001;\n"],"sourceRoot":""}
