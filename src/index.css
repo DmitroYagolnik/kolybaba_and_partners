@@ -104,6 +104,10 @@ footer {
   margin: 0 auto;
 }
 
+.content .page_text-list {
+  margin-bottom: 7px;
+}
+
 .content .page_text_list-item {
   list-style: disc inside;
   text-align: left;
@@ -111,6 +115,14 @@ footer {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.5;
+}
+
+.content .page_important_message-text {
+  font-size: 18px;
+  color: #8b0000;
+  font-weight: bolder;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .content .page_text-link {
@@ -146,6 +158,10 @@ footer {
 
   .content .page_text_list-item {
     font-size: 18px;
+  }
+
+  .content .page_important_message-text {
+    font-size: 22px;
   }
 
   p::first-letter,
