@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/CertificateISO14001/CertificateISO14001.jsx"],"names":["CertificateISO14001"],"mappings":"gIAAA,2BAIeA,UAFa,kBAAM","file":"static/js/5.9798904a.chunk.js","sourcesContent":["import React from 'react';\n\nconst CertificateISO14001 = () => <p>Сертифікат ISO 14001:2015</p>;\n\nexport default CertificateISO14001;\n"],"sourceRoot":""}
