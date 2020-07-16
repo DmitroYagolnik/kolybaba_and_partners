@@ -44,7 +44,9 @@ const AboutUs = () => {
       </ul>
       <p className="page-text">{t('AboutUs.paragraph_6')}</p>
       <p className="page-text">{t('AboutUs.paragraph_7')}</p>
-      <p className="page-text">{t('AboutUs.paragraph_8')} «Dandelion».</p>
+      <p className="page-text">
+        {t('AboutUs.paragraph_8')} «kolybaba & partners».
+      </p>
     </div>
   );
 };
