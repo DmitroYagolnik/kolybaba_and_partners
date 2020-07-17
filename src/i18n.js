@@ -30,6 +30,8 @@ import LicensePrecursorsUk from './pages/LicensePrecursors/translations/LicenseP
 import LicensePrecursorsRu from './pages/LicensePrecursors/translations/LicensePrecursorsRu.json';
 import CertificateISO9001Uk from './pages/CertificateISO9001/translations/CertificateISO9001Uk.json';
 import CertificateISO9001Ru from './pages/CertificateISO9001/translations/CertificateISO9001Ru.json';
+import CertificateISO22000Uk from './pages/CertificateISO22000/translations/CertificateISO22000Uk.json';
+import CertificateISO22000Ru from './pages/CertificateISO22000/translations/CertificateISO22000Ru.json';
 
 i18n
   .use(XHR)
@@ -52,6 +54,7 @@ i18n
           ...MedicalLicenseTranslationUk,
           ...LicensePrecursorsUk,
           ...CertificateISO9001Uk,
+          ...CertificateISO22000Uk,
         },
       },
       ru: {
@@ -70,6 +73,7 @@ i18n
           ...MedicalLicenseTranslationRu,
           ...LicensePrecursorsRu,
           ...CertificateISO9001Ru,
+          ...CertificateISO22000Ru,
         },
       },
     },
