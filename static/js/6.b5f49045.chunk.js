@@ -1,2 +1,0 @@
-(this.webpackJsonpkolybaba_and_partners=this.webpackJsonpkolybaba_and_partners||[]).push([[6],{134:function(a,n,t){"use strict";t.r(n);var e=t(0),r=t.n(e);n.default=function(){return r.a.createElement("p",null,"\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442 ISO 22000 (\u0425\u0410\u0421\u0421\u041f)")}}}]);
-//# sourceMappingURL=6.b5f49045.chunk.js.map
