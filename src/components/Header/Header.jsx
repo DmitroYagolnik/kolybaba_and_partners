@@ -4,7 +4,7 @@ import Transition from '../../transition/Transition';
 import WorkingHours from '../WorkingHours/WorkingHours';
 import ContactInformation from '../ContactInformation/ContactInformation';
 import style from './Header.module.css';
-import logo from '../../img/kolybaba_and_partners-logo.png';
+import logo from '../../img/Logo.png';
 
 class Header extends Component {
   state = {
