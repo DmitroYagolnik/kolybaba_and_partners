@@ -28,6 +28,8 @@ import MedicalLicenseTranslationUk from './pages/MedicalLicense/translations/Med
 import MedicalLicenseTranslationRu from './pages/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
 import LicensePrecursorsUk from './pages/LicensePrecursors/translations/LicensePrecursorsUk.json';
 import LicensePrecursorsRu from './pages/LicensePrecursors/translations/LicensePrecursorsRu.json';
+import CertificateISO9001Uk from './pages/CertificateISO9001/translations/CertificateISO9001Uk.json';
+import CertificateISO9001Ru from './pages/CertificateISO9001/translations/CertificateISO9001Ru.json';
 
 i18n
   .use(XHR)
@@ -49,6 +51,7 @@ i18n
           ...DevelopmentPLERTranslationUk,
           ...MedicalLicenseTranslationUk,
           ...LicensePrecursorsUk,
+          ...CertificateISO9001Uk,
         },
       },
       ru: {
@@ -66,6 +69,7 @@ i18n
           ...DevelopmentPLERTranslationRu,
           ...MedicalLicenseTranslationRu,
           ...LicensePrecursorsRu,
+          ...CertificateISO9001Ru,
         },
       },
     },
