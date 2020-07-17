@@ -1,1 +1,0 @@
-{"version":3,"sources":["pages/CertificateISO22000/CertificateISO22000.jsx"],"names":["CertificateISO22000"],"mappings":"gIAAA,2BAIeA,UAFa,kBAAM","file":"static/js/6.71e5afc6.chunk.js","sourcesContent":["import React from 'react';\n\nconst CertificateISO22000 = () => <p>Сертифікат ISO 22000 (ХАССП)</p>;\n\nexport default CertificateISO22000;\n"],"sourceRoot":""}

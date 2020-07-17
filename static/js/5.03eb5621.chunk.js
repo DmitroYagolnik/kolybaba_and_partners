@@ -1,0 +1,2 @@
+(this.webpackJsonpkolybaba_and_partners=this.webpackJsonpkolybaba_and_partners||[]).push([[5],{135:function(a,n,t){"use strict";t.r(n);var e=t(0),r=t.n(e);n.default=function(){return r.a.createElement("p",null,"\u0421\u0435\u0440\u0442\u0438\u0444\u0456\u043a\u0430\u0442 ISO 14001:2015")}}}]);
+//# sourceMappingURL=5.03eb5621.chunk.js.map
