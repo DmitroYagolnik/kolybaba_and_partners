@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d4a0d7045e9d549aa30f9832f99e2a4",
+    "revision": "c57b8e6480e360b9ca35510bf81a698f",
     "url": "/dandelion/index.html"
   },
   {
-    "revision": "e013d1fbd8c5b04d6b9d",
+    "revision": "7fdaf74401929caca9d8",
     "url": "/dandelion/static/css/main.60a67be8.chunk.css"
   },
   {
@@ -60,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dandelion/static/js/9.b5b85f54.chunk.js"
   },
   {
-    "revision": "e013d1fbd8c5b04d6b9d",
-    "url": "/dandelion/static/js/main.dc0fc7ae.chunk.js"
+    "revision": "7fdaf74401929caca9d8",
+    "url": "/dandelion/static/js/main.e29ffb00.chunk.js"
   },
   {
     "revision": "4b633f31362d74f87365",
@@ -72,7 +72,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dandelion/static/media/Kulbaba-foto.305ddba0.png"
   },
   {
-    "revision": "4e91751088e063a3f9afc4c0e1008af6",
-    "url": "/dandelion/static/media/kolybaba_and_partners-logo.4e917510.png"
+    "revision": "c58ee3429e3ca735291851faef169b79",
+    "url": "/dandelion/static/media/Logo.c58ee342.png"
   }
 ]);

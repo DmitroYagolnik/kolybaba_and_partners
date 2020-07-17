@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dandelion/static/css/main.60a67be8.chunk.css",
-    "main.js": "/dandelion/static/js/main.dc0fc7ae.chunk.js",
-    "main.js.map": "/dandelion/static/js/main.dc0fc7ae.chunk.js.map",
+    "main.js": "/dandelion/static/js/main.e29ffb00.chunk.js",
+    "main.js.map": "/dandelion/static/js/main.e29ffb00.chunk.js.map",
     "runtime-main.js": "/dandelion/static/js/runtime-main.be29bce7.js",
     "runtime-main.js.map": "/dandelion/static/js/runtime-main.be29bce7.js.map",
     "static/js/2.b5711479.chunk.js": "/dandelion/static/js/2.b5711479.chunk.js",
@@ -32,16 +32,16 @@
     "static/js/14.2313df2d.chunk.js": "/dandelion/static/js/14.2313df2d.chunk.js",
     "static/js/14.2313df2d.chunk.js.map": "/dandelion/static/js/14.2313df2d.chunk.js.map",
     "index.html": "/dandelion/index.html",
-    "precache-manifest.ce40975ab586b3b4c6e2fd0becf72aea.js": "/dandelion/precache-manifest.ce40975ab586b3b4c6e2fd0becf72aea.js",
+    "precache-manifest.678db160e02078325f5029356ab21f85.js": "/dandelion/precache-manifest.678db160e02078325f5029356ab21f85.js",
     "service-worker.js": "/dandelion/service-worker.js",
     "static/css/main.60a67be8.chunk.css.map": "/dandelion/static/css/main.60a67be8.chunk.css.map",
     "static/media/Kulbaba-foto.png": "/dandelion/static/media/Kulbaba-foto.305ddba0.png",
-    "static/media/kolybaba_and_partners-logo.png": "/dandelion/static/media/kolybaba_and_partners-logo.4e917510.png"
+    "static/media/Logo.png": "/dandelion/static/media/Logo.c58ee342.png"
   },
   "entrypoints": [
     "static/js/runtime-main.be29bce7.js",
     "static/js/2.b5711479.chunk.js",
     "static/css/main.60a67be8.chunk.css",
-    "static/js/main.dc0fc7ae.chunk.js"
+    "static/js/main.e29ffb00.chunk.js"
   ]
 }
