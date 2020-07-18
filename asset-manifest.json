@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/dandelion/static/css/main.52a449af.chunk.css",
-    "main.js": "/dandelion/static/js/main.ba6d6978.chunk.js",
-    "main.js.map": "/dandelion/static/js/main.ba6d6978.chunk.js.map",
-    "runtime-main.js": "/dandelion/static/js/runtime-main.203e0a4b.js",
-    "runtime-main.js.map": "/dandelion/static/js/runtime-main.203e0a4b.js.map",
+    "main.js": "/dandelion/static/js/main.082b048b.chunk.js",
+    "main.js.map": "/dandelion/static/js/main.082b048b.chunk.js.map",
+    "runtime-main.js": "/dandelion/static/js/runtime-main.31779e12.js",
+    "runtime-main.js.map": "/dandelion/static/js/runtime-main.31779e12.js.map",
     "static/js/2.273249a1.chunk.js": "/dandelion/static/js/2.273249a1.chunk.js",
     "static/js/2.273249a1.chunk.js.map": "/dandelion/static/js/2.273249a1.chunk.js.map",
-    "static/js/3.af1e5aed.chunk.js": "/dandelion/static/js/3.af1e5aed.chunk.js",
-    "static/js/3.af1e5aed.chunk.js.map": "/dandelion/static/js/3.af1e5aed.chunk.js.map",
+    "static/js/3.31ed472d.chunk.js": "/dandelion/static/js/3.31ed472d.chunk.js",
+    "static/js/3.31ed472d.chunk.js.map": "/dandelion/static/js/3.31ed472d.chunk.js.map",
     "static/js/4.46f8ee5a.chunk.js": "/dandelion/static/js/4.46f8ee5a.chunk.js",
     "static/js/4.46f8ee5a.chunk.js.map": "/dandelion/static/js/4.46f8ee5a.chunk.js.map",
     "static/js/5.a5ab1a99.chunk.js": "/dandelion/static/js/5.a5ab1a99.chunk.js",
@@ -32,16 +32,16 @@
     "static/js/14.07fc58d8.chunk.js": "/dandelion/static/js/14.07fc58d8.chunk.js",
     "static/js/14.07fc58d8.chunk.js.map": "/dandelion/static/js/14.07fc58d8.chunk.js.map",
     "index.html": "/dandelion/index.html",
-    "precache-manifest.b58426d8735feb211753616d93136a5c.js": "/dandelion/precache-manifest.b58426d8735feb211753616d93136a5c.js",
+    "precache-manifest.a227b1f66f96973c40d7f82c192205b2.js": "/dandelion/precache-manifest.a227b1f66f96973c40d7f82c192205b2.js",
     "service-worker.js": "/dandelion/service-worker.js",
     "static/css/main.52a449af.chunk.css.map": "/dandelion/static/css/main.52a449af.chunk.css.map",
     "static/media/Kulbaba-foto.png": "/dandelion/static/media/Kulbaba-foto.305ddba0.png",
     "static/media/Logo.png": "/dandelion/static/media/Logo.c58ee342.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.203e0a4b.js",
+    "static/js/runtime-main.31779e12.js",
     "static/js/2.273249a1.chunk.js",
     "static/css/main.52a449af.chunk.css",
-    "static/js/main.ba6d6978.chunk.js"
+    "static/js/main.082b048b.chunk.js"
   ]
 }
