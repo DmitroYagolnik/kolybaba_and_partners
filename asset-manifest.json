@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/dandelion/static/css/main.f486ae10.chunk.css",
-    "main.js": "/dandelion/static/js/main.7097beb4.chunk.js",
-    "main.js.map": "/dandelion/static/js/main.7097beb4.chunk.js.map",
+    "main.js": "/dandelion/static/js/main.b45f9c81.chunk.js",
+    "main.js.map": "/dandelion/static/js/main.b45f9c81.chunk.js.map",
     "runtime-main.js": "/dandelion/static/js/runtime-main.e2108690.js",
     "runtime-main.js.map": "/dandelion/static/js/runtime-main.e2108690.js.map",
     "static/js/2.033e47a4.chunk.js": "/dandelion/static/js/2.033e47a4.chunk.js",
@@ -32,7 +32,7 @@
     "static/js/14.fc1fc07c.chunk.js": "/dandelion/static/js/14.fc1fc07c.chunk.js",
     "static/js/14.fc1fc07c.chunk.js.map": "/dandelion/static/js/14.fc1fc07c.chunk.js.map",
     "index.html": "/dandelion/index.html",
-    "precache-manifest.d85702582e94ef0dfa5f7e0b0624258c.js": "/dandelion/precache-manifest.d85702582e94ef0dfa5f7e0b0624258c.js",
+    "precache-manifest.95a67dce8329b4f9392086c103e7e060.js": "/dandelion/precache-manifest.95a67dce8329b4f9392086c103e7e060.js",
     "service-worker.js": "/dandelion/service-worker.js",
     "static/css/main.f486ae10.chunk.css.map": "/dandelion/static/css/main.f486ae10.chunk.css.map",
     "static/media/Kulbaba-foto.png": "/dandelion/static/media/Kulbaba-foto.305ddba0.png",
@@ -43,6 +43,6 @@
     "static/js/runtime-main.e2108690.js",
     "static/js/2.033e47a4.chunk.js",
     "static/css/main.f486ae10.chunk.css",
-    "static/js/main.7097beb4.chunk.js"
+    "static/js/main.b45f9c81.chunk.js"
   ]
 }
