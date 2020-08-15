@@ -6,23 +6,23 @@
     "services": [
       {
         "titlePage": "Occupational_health.Declaration_MTB-link",
-        "linkPage": "/kolybaba_and_partners/services/declaration_MTB"
+        "linkPage": "/services/declaration_MTB"
       },
       {
         "titlePage": "Occupational_health.Permission_use_hazardous_equipment-link",
-        "linkPage": "/kolybaba_and_partners/services/permission_use_hazardous_equipment"
+        "linkPage": "/services/permission_use_hazardous_equipment"
       },
       {
         "titlePage": "Occupational_health.Permission_hazardous_work_and_equipment-link",
-        "linkPage": "/kolybaba_and_partners/services/permission_hazardous_work_and_equipment"
+        "linkPage": "/services/permission_hazardous_work_and_equipment"
       },
       {
         "titlePage": "Occupational_health.Identification_HF_and_PHF-link",
-        "linkPage": "/kolybaba_and_partners/services/identification_HF_and_PHF"
+        "linkPage": "/services/identification_HF_and_PHF"
       },
       {
         "titlePage": "Occupational_health.development_PLER-link",
-        "linkPage": "/kolybaba_and_partners/services/development_PLER"
+        "linkPage": "/services/development_PLER"
       }
     ]
   },
@@ -33,11 +33,11 @@
     "services": [
       {
         "titlePage": "License.Medical_license-link",
-        "linkPage": "/kolybaba_and_partners/services/medical_license"
+        "linkPage": "/services/medical_license"
       },
       {
         "titlePage": "License.License_precursors-link",
-        "linkPage": "/kolybaba_and_partners/services/license_precursors"
+        "linkPage": "/services/license_precursors"
       }
     ]
   },
@@ -48,15 +48,15 @@
     "services": [
       {
         "titlePage": "Certificate_ISO.Certificate_ISO_9001-link",
-        "linkPage": "/kolybaba_and_partners/services/certificate_ISO_9001"
+        "linkPage": "/services/certificate_ISO_9001"
       },
       {
         "titlePage": "Certificate_ISO.Certificate_ISO_22000-link",
-        "linkPage": "/kolybaba_and_partners/services/certificate_ISO_22000"
+        "linkPage": "/services/certificate_ISO_22000"
       },
       {
         "titlePage": "Certificate_ISO.Certificate_ISO_14001-link",
-        "linkPage": "/kolybaba_and_partners/services/certificate_ISO_14001"
+        "linkPage": "/services/certificate_ISO_14001"
       }
     ]
   }

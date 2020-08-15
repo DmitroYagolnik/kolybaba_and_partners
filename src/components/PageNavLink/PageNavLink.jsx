@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
+import routes from '../../servises/routes';
 import ChangeLanguageBtn from '../ChangeLanguageBtn/ChangeLanguageBtn';
 import style from './PageNavLink.module.css';
 
@@ -11,12 +12,12 @@ const PageNavLink = ({ siteLanguage, changeLanguage }) => {
     <nav className={style.nav}>
       <ul className={style.navList}>
         <li className={style.navLink}>
-          <NavLink to="/kolybaba_and_partners/about_us">
+          <NavLink to={routes.ABOUT_US}>
             {t('PageNavLink.AboutUs_page')}
           </NavLink>
         </li>
         <li className={style.navLink}>
-          <NavLink exact to="/kolybaba_and_partners/">
+          <NavLink exact to={routes.SERVICES}>
             {t('PageNavLink.Services')}
           </NavLink>
         </li>
