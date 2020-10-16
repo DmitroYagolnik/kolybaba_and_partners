@@ -10,6 +10,8 @@ import SiteDescriptionTranslationUk from './components/SiteDescription/translati
 import SiteDescriptionTranslationRu from './components/SiteDescription/translations/SiteDescriptionTranslationRu.json';
 import ServicesPageNavLinkTranslationUk from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationUk.json';
 import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationRu.json';
+import OurPartnersTranslationUk from './components/OurPartners/translations/OurPartnersTranslationUk.json';
+import OurPartnersTranslationRu from './components/OurPartners/translations/OurPartnersTranslationRu.json';
 import AboutUsPageTranslationUk from './pages/AboutUs/translations/AboutUsPageTranslationUk.json';
 import AboutUsPageTranslationRu from './pages/AboutUs/translations/AboutUsPageTranslationRu.json';
 import ServicesPageTranslationUk from './pages/Services/translations/ServicesPageTranslationUk.json';
@@ -48,6 +50,7 @@ i18n
           ...ServicesPageNavLinkTranslationUk,
           ...AboutUsPageTranslationUk,
           ...ServicesPageTranslationUk,
+          ...OurPartnersTranslationUk,
           ...DeclarationMTBTranslationUk,
           ...PermissionUseHazardousEquipmentUk,
           ...PermissionHazardousWorkAndEquipmenUk,
@@ -68,6 +71,7 @@ i18n
           ...ServicesPageNavLinkTranslationRu,
           ...AboutUsPageTranslationRu,
           ...ServicesPageTranslationRu,
+          ...OurPartnersTranslationRu,
           ...DeclarationMTBTranslationRu,
           ...PermissionUseHazardousEquipmentRu,
           ...PermissionHazardousWorkAndEquipmenRu,
