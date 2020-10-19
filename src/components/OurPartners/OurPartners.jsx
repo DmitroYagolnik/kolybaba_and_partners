@@ -10,7 +10,7 @@ const OurPartners = () => {
         <span>
           <a
             className="page_text-link"
-            href="http://centrcert.com.ua/"
+            href="https://www.bobrovska.com"
             target="_blank"
             rel="noopener noreferrer"
           >
