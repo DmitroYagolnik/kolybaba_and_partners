@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
-import PagesLinks from '../../servises/additionalInformation/additionalPagesLinks.json';
+import catalogOfServices from '../../servises/additionalInformation/catalogOfServices';
 import chooseImgIcon from '../../servises/chooseImgIcon';
 import style from './ServicesPageNavLink.module.css';
 
@@ -17,7 +17,7 @@ const ServicesPageNavLink = ({ hasImg, isNavLink }) => {
 
   return (
     <div className={ServicesWrapperStyle}>
-      {PagesLinks.map(({ title, img, alt, services }) => {
+      {catalogOfServices.map(({ typeServices, img, alt, services }) => {
         return (
           <article className={TypeServicesArticle} key={img}>
             {hasImg && (
@@ -27,15 +27,15 @@ const ServicesPageNavLink = ({ hasImg, isNavLink }) => {
                 className={style.LinkArticleIcon}
               />
             )}
-            <h4 className={style.LinkArticleTitle}>{t(title)}</h4>
+            <h4 className={style.LinkArticleTitle}>{t(typeServices)}</h4>
             <ul className={style.LinkArticleList}>
-              {services.map(({ titlePage, linkPage }) => {
+              {services.map(({ servicePageName, routePage }) => {
                 return (
-                  <li key={linkPage} className={style.LinkArticleListItem}>
+                  <li key={routePage} className={style.LinkArticleListItem}>
                     {isNavLink ? (
-                      <NavLink to={linkPage}>{t(titlePage)}</NavLink>
+                      <NavLink to={routePage}>{t(servicePageName)}</NavLink>
                     ) : (
-                      <Link to={linkPage}>{t(titlePage)}</Link>
+                      <Link to={routePage}>{t(servicePageName)}</Link>
                     )}
                   </li>
                 );
