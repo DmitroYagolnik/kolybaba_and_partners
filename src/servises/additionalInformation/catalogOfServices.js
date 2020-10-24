@@ -62,6 +62,10 @@ const catalogOfServices = [
         servicePageName: 'Certificate_ISO.Certificate_ISO_14001-link',
         routePage: routes.CERTIFICATE_ISO_14001,
       },
+      {
+        servicePageName: 'Certificate_ISO.Standard_AS/EN_9100-link',
+        routePage: routes.STANDART_AS_EN_9100,
+      },
     ],
   },
 ];

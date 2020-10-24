@@ -45,6 +45,9 @@ const CertificateISO22000 = lazy(() =>
 const CertificateISO14001 = lazy(() =>
   import('../pages/CertificateISO14001/CertificateISO14001'),
 );
+const StandardASEN9100 = lazy(() =>
+  import('../pages/StandardASEN9100/StandardASEN9100'),
+);
 
 export default class App extends Component {
   state = {
@@ -123,6 +126,10 @@ export default class App extends Component {
               <Route
                 path={routes.CERTIFICATE_ISO_14001}
                 component={withServicesNavLink(CertificateISO14001)}
+              />
+              <Route
+                path={routes.STANDART_AS_EN_9100}
+                component={withServicesNavLink(StandardASEN9100)}
               />
               <Redirect to={routes.SERVICES} />
             </Switch>

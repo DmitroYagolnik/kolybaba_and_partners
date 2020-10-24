@@ -36,6 +36,8 @@ import CertificateISO22000Uk from './pages/CertificateISO22000/translations/Cert
 import CertificateISO22000Ru from './pages/CertificateISO22000/translations/CertificateISO22000Ru.json';
 import CertificateISO14001Uk from './pages/CertificateISO14001/translations/CertificateISO14001Uk.json';
 import CertificateISO14001Ru from './pages/CertificateISO14001/translations/CertificateISO14001Ru.json';
+import StandardASEN9100Uk from './pages/StandardASEN9100/translations/StandardASEN9100Uk.json';
+import StandardASEN9100Ru from './pages/StandardASEN9100/translations/StandardASEN9100Ru.json';
 
 i18n
   .use(XHR)
@@ -61,6 +63,7 @@ i18n
           ...CertificateISO9001Uk,
           ...CertificateISO22000Uk,
           ...CertificateISO14001Uk,
+          ...StandardASEN9100Uk,
         },
       },
       ru: {
@@ -82,6 +85,7 @@ i18n
           ...CertificateISO9001Ru,
           ...CertificateISO22000Ru,
           ...CertificateISO14001Ru,
+          ...StandardASEN9100Ru,
         },
       },
     },
