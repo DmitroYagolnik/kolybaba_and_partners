@@ -46,6 +46,21 @@ const catalogOfServices = [
     ],
   },
   {
+    typeServices: 'Certificate.Certificate-title',
+    img: 'certificateIcon',
+    alt: 'Certificate.Certificate_icon-alt',
+    services: [
+      {
+        servicePageName: '',
+        routePage: '',
+      },
+      {
+        servicePageName: '',
+        routePage: '',
+      },
+    ],
+  },
+  {
     typeServices: 'Certificate_ISO.Certificate_ISO-title',
     img: 'ISOicon',
     alt: 'Certificate_ISO.Certificate_ISO_icon-alt',
@@ -68,6 +83,22 @@ const catalogOfServices = [
       },
     ],
   },
+
+  // {
+  //   typeServices: '',
+  //   img: '',
+  //   alt: '',
+  //   services: [
+  //     {
+  //       servicePageName: '',
+  //       routePage: '',
+  //     },
+  //     {
+  //       servicePageName: '',
+  //       routePage: '',
+  //     },
+  //   ],
+  // },
 ];
 
 export default catalogOfServices;
