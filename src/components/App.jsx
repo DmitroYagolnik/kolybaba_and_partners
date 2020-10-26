@@ -49,6 +49,10 @@ const StandardASEN9100 = lazy(() =>
   import('../pages/StandardASEN9100/StandardASEN9100'),
 );
 
+const CertificateOfCompliance = lazy(() =>
+  import('../pages/CertificateOfCompliance/CertificateOfCompliance'),
+);
+
 export default class App extends Component {
   state = {
     siteLanguage: language.UkrainianLanguage,
@@ -130,6 +134,10 @@ export default class App extends Component {
               <Route
                 path={routes.STANDART_AS_EN_9100}
                 component={withServicesNavLink(StandardASEN9100)}
+              />
+              <Route
+                path={routes.CERTIFICATE_OF_COMPLIANCE}
+                component={withServicesNavLink(CertificateOfCompliance)}
               />
               <Redirect to={routes.SERVICES} />
             </Switch>

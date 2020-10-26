@@ -51,8 +51,8 @@ const catalogOfServices = [
     alt: 'Certificate.Certificate_icon-alt',
     services: [
       {
-        servicePageName: '',
-        routePage: '',
+        servicePageName: 'Certificate.Certificate_of_Compliance-link',
+        routePage: routes.CERTIFICATE_OF_COMPLIANCE,
       },
       {
         servicePageName: '',
