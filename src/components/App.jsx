@@ -9,48 +9,64 @@ import '../index.css';
 import i18n from '../i18n';
 import language from '../servises/language';
 
-const AboutUs = lazy(() => import('../pages/AboutUs/AboutUs'));
-const Services = lazy(() => import('../pages/Services/Services'));
+const AboutUs = lazy(() => import('../pages/mainPages/AboutUs/AboutUs'));
+const Services = lazy(() => import('../pages/mainPages/Services/Services'));
 const DeclarationMTB = lazy(() =>
-  import('../pages/DeclarationMTB/DeclarationMTB'),
+  import(
+    '../pages/auxiliaryPages/occupationalHealth/DeclarationMTB/DeclarationMTB'
+  ),
 );
 const PermissionUseHazardousEquipment = lazy(() =>
   import(
-    '../pages/PermissionUseHazardousEquipment/PermissionUseHazardousEquipment'
+    '../pages/auxiliaryPages/occupationalHealth/PermissionUseHazardousEquipment/PermissionUseHazardousEquipment'
   ),
 );
 const PermissionHazardousWorkAndEquipmen = lazy(() =>
   import(
-    '../pages/PermissionHazardousWorkAndEquipment/PermissionHazardousWorkAndEquipmen'
+    '../pages/auxiliaryPages/occupationalHealth/PermissionHazardousWorkAndEquipment/PermissionHazardousWorkAndEquipmen'
   ),
 );
 const IdentificationHFAndPHF = lazy(() =>
-  import('../pages/IdentificationHFAndPHF/IdentificationHFAndPHF'),
+  import(
+    '../pages/auxiliaryPages/occupationalHealth/IdentificationHFAndPHF/IdentificationHFAndPHF'
+  ),
 );
 const DevelopmentPLER = lazy(() =>
-  import('../pages/DevelopmentPLER/DevelopmentPLER'),
+  import(
+    '../pages/auxiliaryPages/occupationalHealth/DevelopmentPLER/DevelopmentPLER'
+  ),
 );
 const MedicalLicense = lazy(() =>
-  import('../pages/MedicalLicense/MedicalLicense'),
+  import('../pages/auxiliaryPages/license/MedicalLicense/MedicalLicense'),
 );
 const LicensePrecursors = lazy(() =>
-  import('../pages/LicensePrecursors/LicensePrecursors'),
+  import('../pages/auxiliaryPages/license/LicensePrecursors/LicensePrecursors'),
 );
 const CertificateISO9001 = lazy(() =>
-  import('../pages/CertificateISO9001/CertificateISO9001'),
+  import(
+    '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
+  ),
 );
 const CertificateISO22000 = lazy(() =>
-  import('../pages/CertificateISO22000/CertificateISO22000'),
+  import(
+    '../pages/auxiliaryPages/certificateISO/CertificateISO22000/CertificateISO22000'
+  ),
 );
 const CertificateISO14001 = lazy(() =>
-  import('../pages/CertificateISO14001/CertificateISO14001'),
+  import(
+    '../pages/auxiliaryPages/certificateISO/CertificateISO14001/CertificateISO14001'
+  ),
 );
 const StandardASEN9100 = lazy(() =>
-  import('../pages/StandardASEN9100/StandardASEN9100'),
+  import(
+    '../pages/auxiliaryPages/certificateISO/StandardASEN9100/StandardASEN9100'
+  ),
 );
 
 const CertificateOfCompliance = lazy(() =>
-  import('../pages/CertificateOfCompliance/CertificateOfCompliance'),
+  import(
+    '../pages/auxiliaryPages/certificate/CertificateOfCompliance/CertificateOfCompliance'
+  ),
 );
 
 export default class App extends Component {

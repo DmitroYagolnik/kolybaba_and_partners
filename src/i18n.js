@@ -12,34 +12,37 @@ import ServicesPageNavLinkTranslationUk from './components/ServicesPageNavLink/t
 import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationRu.json';
 import OurPartnersTranslationUk from './components/OurPartners/translations/OurPartnersTranslationUk.json';
 import OurPartnersTranslationRu from './components/OurPartners/translations/OurPartnersTranslationRu.json';
-import AboutUsPageTranslationUk from './pages/AboutUs/translations/AboutUsPageTranslationUk.json';
-import AboutUsPageTranslationRu from './pages/AboutUs/translations/AboutUsPageTranslationRu.json';
-import ServicesPageTranslationUk from './pages/Services/translations/ServicesPageTranslationUk.json';
-import ServicesPageTranslationRu from './pages/Services/translations/ServicesPageTranslationRu.json';
-import DeclarationMTBTranslationUk from './pages/DeclarationMTB/translations/DeclarationMTBTranslationUk.json';
-import DeclarationMTBTranslationRu from './pages/DeclarationMTB/translations/DeclarationMTBTranslationRu.json';
-import PermissionUseHazardousEquipmentUk from './pages/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentUk.json';
-import PermissionUseHazardousEquipmentRu from './pages/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentRu.json';
-import PermissionHazardousWorkAndEquipmenUk from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenUk.json';
-import PermissionHazardousWorkAndEquipmenRu from './pages/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenRu.json';
-import IdentificationHFAndPHFUk from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFUk.json';
-import IdentificationHFAndPHFRu from './pages/IdentificationHFAndPHF/translations/IdentificationHFAndPHFRu.json';
-import DevelopmentPLERTranslationUk from './pages/DevelopmentPLER/translations/DevelopmentPLERTranslationUk.json';
-import DevelopmentPLERTranslationRu from './pages/DevelopmentPLER/translations/DevelopmentPLERTranslationRu.json';
-import MedicalLicenseTranslationUk from './pages/MedicalLicense/translations/MedicalLicenseTranslationUk.json';
-import MedicalLicenseTranslationRu from './pages/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
-import LicensePrecursorsUk from './pages/LicensePrecursors/translations/LicensePrecursorsUk.json';
-import LicensePrecursorsRu from './pages/LicensePrecursors/translations/LicensePrecursorsRu.json';
-import CertificateISO9001Uk from './pages/CertificateISO9001/translations/CertificateISO9001Uk.json';
-import CertificateISO9001Ru from './pages/CertificateISO9001/translations/CertificateISO9001Ru.json';
-import CertificateISO22000Uk from './pages/CertificateISO22000/translations/CertificateISO22000Uk.json';
-import CertificateISO22000Ru from './pages/CertificateISO22000/translations/CertificateISO22000Ru.json';
-import CertificateISO14001Uk from './pages/CertificateISO14001/translations/CertificateISO14001Uk.json';
-import CertificateISO14001Ru from './pages/CertificateISO14001/translations/CertificateISO14001Ru.json';
-import StandardASEN9100Uk from './pages/StandardASEN9100/translations/StandardASEN9100Uk.json';
-import StandardASEN9100Ru from './pages/StandardASEN9100/translations/StandardASEN9100Ru.json';
-import CertificateOfComplianceUk from './pages/CertificateOfCompliance/translations/CertificateOfComplianceUk.json';
-import CertificateOfComplianceRu from './pages/CertificateOfCompliance/translations/CertificateOfComplianceRu.json';
+
+import AboutUsPageTranslationUk from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationUk.json';
+import AboutUsPageTranslationRu from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationRu.json';
+import ServicesPageTranslationUk from './pages/mainPages/Services/translations/ServicesPageTranslationUk.json';
+import ServicesPageTranslationRu from './pages/mainPages/Services/translations/ServicesPageTranslationRu.json';
+
+import DeclarationMTBTranslationUk from './pages/auxiliaryPages/occupationalHealth/DeclarationMTB/translations/DeclarationMTBTranslationUk.json';
+import DeclarationMTBTranslationRu from './pages/auxiliaryPages/occupationalHealth/DeclarationMTB/translations/DeclarationMTBTranslationRu.json';
+import PermissionUseHazardousEquipmentUk from './pages/auxiliaryPages/occupationalHealth/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentUk.json';
+import PermissionUseHazardousEquipmentRu from './pages/auxiliaryPages/occupationalHealth/PermissionUseHazardousEquipment/translations/PermissionUseHazardousEquipmentRu.json';
+import PermissionHazardousWorkAndEquipmenUk from './pages/auxiliaryPages/occupationalHealth/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenUk.json';
+import PermissionHazardousWorkAndEquipmenRu from './pages/auxiliaryPages/occupationalHealth/PermissionHazardousWorkAndEquipment/translations/PermissionHazardousWorkAndEquipmenRu.json';
+import IdentificationHFAndPHFUk from './pages/auxiliaryPages/occupationalHealth/IdentificationHFAndPHF/translations/IdentificationHFAndPHFUk.json';
+import IdentificationHFAndPHFRu from './pages/auxiliaryPages/occupationalHealth/IdentificationHFAndPHF/translations/IdentificationHFAndPHFRu.json';
+import DevelopmentPLERTranslationUk from './pages/auxiliaryPages/occupationalHealth/DevelopmentPLER/translations/DevelopmentPLERTranslationUk.json';
+import DevelopmentPLERTranslationRu from './pages/auxiliaryPages/occupationalHealth/DevelopmentPLER/translations/DevelopmentPLERTranslationRu.json';
+
+import MedicalLicenseTranslationUk from './pages/auxiliaryPages/license/MedicalLicense/translations/MedicalLicenseTranslationUk.json';
+import MedicalLicenseTranslationRu from './pages/auxiliaryPages/license/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
+import LicensePrecursorsUk from './pages/auxiliaryPages/license/LicensePrecursors/translations/LicensePrecursorsUk.json';
+import LicensePrecursorsRu from './pages/auxiliaryPages/license/LicensePrecursors/translations/LicensePrecursorsRu.json';
+import CertificateISO9001Uk from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Uk.json';
+import CertificateISO9001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Ru.json';
+import CertificateISO22000Uk from './pages/auxiliaryPages/certificateISO/CertificateISO22000/translations/CertificateISO22000Uk.json';
+import CertificateISO22000Ru from './pages/auxiliaryPages/certificateISO/CertificateISO22000/translations/CertificateISO22000Ru.json';
+import CertificateISO14001Uk from './pages/auxiliaryPages/certificateISO/CertificateISO14001/translations/CertificateISO14001Uk.json';
+import CertificateISO14001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO14001/translations/CertificateISO14001Ru.json';
+import StandardASEN9100Uk from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Uk.json';
+import StandardASEN9100Ru from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Ru.json';
+import CertificateOfComplianceUk from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceUk.json';
+import CertificateOfComplianceRu from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceRu.json';
 
 i18n
   .use(XHR)
