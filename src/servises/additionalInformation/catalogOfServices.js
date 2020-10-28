@@ -58,6 +58,11 @@ const catalogOfServices = [
         servicePageName: 'Certificate.Certificate_CE-link',
         routePage: routes.CERTIFICATE_CE,
       },
+      {
+        servicePageName:
+          'Certificate.Sanitary-epidemiological_examination-link',
+        routePage: routes.SANITARY_EPIDEMIOLOGICAL_EXAMINATION,
+      },
     ],
   },
   {

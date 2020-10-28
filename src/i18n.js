@@ -38,6 +38,8 @@ import CertificateOfComplianceUk from './pages/auxiliaryPages/certificate/Certif
 import CertificateOfComplianceRu from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceRu.json';
 import CertificateCEUk from './pages/auxiliaryPages/certificate/CertificateCE/translations/CertificateCEUk.json';
 import CertificateCERu from './pages/auxiliaryPages/certificate/CertificateCE/translations/CertificateCERu.json';
+import SanitaryEpidemiologicalExaminationUk from './pages/auxiliaryPages/certificate/SanitaryEpidemiologicalExamination/translations/SanitaryEpidemiologicalExaminationUk.json';
+import SanitaryEpidemiologicalExaminationRu from './pages/auxiliaryPages/certificate/SanitaryEpidemiologicalExamination/translations/SanitaryEpidemiologicalExaminationRu.json';
 
 import CertificateISO9001Uk from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Uk.json';
 import CertificateISO9001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Ru.json';
@@ -71,6 +73,7 @@ i18n
           ...LicensePrecursorsUk,
           ...CertificateOfComplianceUk,
           ...CertificateCEUk,
+          ...SanitaryEpidemiologicalExaminationUk,
           ...CertificateISO9001Uk,
           ...CertificateISO22000Uk,
           ...CertificateISO14001Uk,
@@ -95,6 +98,7 @@ i18n
           ...LicensePrecursorsRu,
           ...CertificateOfComplianceRu,
           ...CertificateCERu,
+          ...SanitaryEpidemiologicalExaminationRu,
           ...CertificateISO9001Ru,
           ...CertificateISO22000Ru,
           ...CertificateISO14001Ru,

@@ -12,6 +12,8 @@ const routes = {
   LICENSE_PRECURSORS: '/services/license_precursors',
   CERTIFICATE_OF_COMPLIANCE: '/services/certificate_of_compliance',
   CERTIFICATE_CE: '/services/certificate_ce',
+  SANITARY_EPIDEMIOLOGICAL_EXAMINATION:
+    '/services/sanitary-epidemiological_examination',
   CERTIFICATE_ISO_9001: '/services/certificate_ISO_9001',
   CERTIFICATE_ISO_22000: '/services/certificate_ISO_22000',
   CERTIFICATE_ISO_14001: '/services/certificate_ISO_14001',

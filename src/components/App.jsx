@@ -50,6 +50,11 @@ const CertificateOfCompliance = lazy(() =>
 const CertificateCE = lazy(() =>
   import('../pages/auxiliaryPages/certificate/CertificateCE/CertificateCE'),
 );
+const SanitaryEpidemiologicalExamination = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/certificate/SanitaryEpidemiologicalExamination/SanitaryEpidemiologicalExamination'
+  ),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -144,6 +149,12 @@ export default class App extends Component {
               <Route
                 path={routes.CERTIFICATE_CE}
                 component={withServicesNavLink(CertificateCE)}
+              />
+              <Route
+                path={routes.SANITARY_EPIDEMIOLOGICAL_EXAMINATION}
+                component={withServicesNavLink(
+                  SanitaryEpidemiologicalExamination,
+                )}
               />
               <Route
                 path={routes.CERTIFICATE_ISO_9001}
