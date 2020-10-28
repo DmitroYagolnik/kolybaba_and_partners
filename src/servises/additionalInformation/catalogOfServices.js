@@ -55,8 +55,8 @@ const catalogOfServices = [
         routePage: routes.CERTIFICATE_OF_COMPLIANCE,
       },
       {
-        servicePageName: '',
-        routePage: '',
+        servicePageName: 'Certificate.Certificate_CE-link',
+        routePage: routes.CERTIFICATE_CE,
       },
     ],
   },

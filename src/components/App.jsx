@@ -42,6 +42,14 @@ const MedicalLicense = lazy(() =>
 const LicensePrecursors = lazy(() =>
   import('../pages/auxiliaryPages/license/LicensePrecursors/LicensePrecursors'),
 );
+const CertificateOfCompliance = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/certificate/CertificateOfCompliance/CertificateOfCompliance'
+  ),
+);
+const CertificateCE = lazy(() =>
+  import('../pages/auxiliaryPages/certificate/CertificateCE/CertificateCE'),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -60,12 +68,6 @@ const CertificateISO14001 = lazy(() =>
 const StandardASEN9100 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/StandardASEN9100/StandardASEN9100'
-  ),
-);
-
-const CertificateOfCompliance = lazy(() =>
-  import(
-    '../pages/auxiliaryPages/certificate/CertificateOfCompliance/CertificateOfCompliance'
   ),
 );
 
@@ -136,6 +138,14 @@ export default class App extends Component {
                 component={withServicesNavLink(LicensePrecursors)}
               />
               <Route
+                path={routes.CERTIFICATE_OF_COMPLIANCE}
+                component={withServicesNavLink(CertificateOfCompliance)}
+              />
+              <Route
+                path={routes.CERTIFICATE_CE}
+                component={withServicesNavLink(CertificateCE)}
+              />
+              <Route
                 path={routes.CERTIFICATE_ISO_9001}
                 component={withServicesNavLink(CertificateISO9001)}
               />
@@ -150,10 +160,6 @@ export default class App extends Component {
               <Route
                 path={routes.STANDART_AS_EN_9100}
                 component={withServicesNavLink(StandardASEN9100)}
-              />
-              <Route
-                path={routes.CERTIFICATE_OF_COMPLIANCE}
-                component={withServicesNavLink(CertificateOfCompliance)}
               />
               <Redirect to={routes.SERVICES} />
             </Switch>

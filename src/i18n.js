@@ -33,6 +33,12 @@ import MedicalLicenseTranslationUk from './pages/auxiliaryPages/license/MedicalL
 import MedicalLicenseTranslationRu from './pages/auxiliaryPages/license/MedicalLicense/translations/MedicalLicenseTranslationRu.json';
 import LicensePrecursorsUk from './pages/auxiliaryPages/license/LicensePrecursors/translations/LicensePrecursorsUk.json';
 import LicensePrecursorsRu from './pages/auxiliaryPages/license/LicensePrecursors/translations/LicensePrecursorsRu.json';
+
+import CertificateOfComplianceUk from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceUk.json';
+import CertificateOfComplianceRu from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceRu.json';
+import CertificateCEUk from './pages/auxiliaryPages/certificate/CertificateCE/translations/CertificateCEUk.json';
+import CertificateCERu from './pages/auxiliaryPages/certificate/CertificateCE/translations/CertificateCERu.json';
+
 import CertificateISO9001Uk from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Uk.json';
 import CertificateISO9001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Ru.json';
 import CertificateISO22000Uk from './pages/auxiliaryPages/certificateISO/CertificateISO22000/translations/CertificateISO22000Uk.json';
@@ -41,8 +47,6 @@ import CertificateISO14001Uk from './pages/auxiliaryPages/certificateISO/Certifi
 import CertificateISO14001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO14001/translations/CertificateISO14001Ru.json';
 import StandardASEN9100Uk from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Uk.json';
 import StandardASEN9100Ru from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Ru.json';
-import CertificateOfComplianceUk from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceUk.json';
-import CertificateOfComplianceRu from './pages/auxiliaryPages/certificate/CertificateOfCompliance/translations/CertificateOfComplianceRu.json';
 
 i18n
   .use(XHR)
@@ -65,11 +69,12 @@ i18n
           ...DevelopmentPLERTranslationUk,
           ...MedicalLicenseTranslationUk,
           ...LicensePrecursorsUk,
+          ...CertificateOfComplianceUk,
+          ...CertificateCEUk,
           ...CertificateISO9001Uk,
           ...CertificateISO22000Uk,
           ...CertificateISO14001Uk,
           ...StandardASEN9100Uk,
-          ...CertificateOfComplianceUk,
         },
       },
       ru: {
@@ -88,11 +93,12 @@ i18n
           ...DevelopmentPLERTranslationRu,
           ...MedicalLicenseTranslationRu,
           ...LicensePrecursorsRu,
+          ...CertificateOfComplianceRu,
+          ...CertificateCERu,
           ...CertificateISO9001Ru,
           ...CertificateISO22000Ru,
           ...CertificateISO14001Ru,
           ...StandardASEN9100Ru,
-          ...CertificateOfComplianceRu,
         },
       },
     },

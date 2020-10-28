@@ -11,6 +11,7 @@ const routes = {
   MEDICAL_LICENSE: '/services/medical_license',
   LICENSE_PRECURSORS: '/services/license_precursors',
   CERTIFICATE_OF_COMPLIANCE: '/services/certificate_of_compliance',
+  CERTIFICATE_CE: '/services/certificate_ce',
   CERTIFICATE_ISO_9001: '/services/certificate_ISO_9001',
   CERTIFICATE_ISO_22000: '/services/certificate_ISO_22000',
   CERTIFICATE_ISO_14001: '/services/certificate_ISO_14001',
