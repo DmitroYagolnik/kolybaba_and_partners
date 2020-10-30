@@ -55,6 +55,11 @@ const SanitaryEpidemiologicalExamination = lazy(() =>
     '../pages/auxiliaryPages/certificate/SanitaryEpidemiologicalExamination/SanitaryEpidemiologicalExamination'
   ),
 );
+const TechnicalConditions = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/certificate/TechnicalConditions/TechnicalConditions.jsx'
+  ),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -155,6 +160,10 @@ export default class App extends Component {
                 component={withServicesNavLink(
                   SanitaryEpidemiologicalExamination,
                 )}
+              />
+              <Route
+                path={routes.TECHNICAL_CONDITIONS}
+                component={withServicesNavLink(TechnicalConditions)}
               />
               <Route
                 path={routes.CERTIFICATE_ISO_9001}

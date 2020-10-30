@@ -63,6 +63,10 @@ const catalogOfServices = [
           'Certificate.Sanitary-epidemiological_examination-link',
         routePage: routes.SANITARY_EPIDEMIOLOGICAL_EXAMINATION,
       },
+      {
+        servicePageName: 'Certificate.Technical_conditions-link',
+        routePage: routes.TECHNICAL_CONDITIONS,
+      },
     ],
   },
   {
