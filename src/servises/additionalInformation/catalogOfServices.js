@@ -67,6 +67,10 @@ const catalogOfServices = [
         servicePageName: 'Certificate.Technical_conditions-link',
         routePage: routes.TECHNICAL_CONDITIONS,
       },
+      {
+        servicePageName: 'Certificate.Aviation_rules-link',
+        routePage: routes.AVIATION_RULES,
+      },
     ],
   },
   {

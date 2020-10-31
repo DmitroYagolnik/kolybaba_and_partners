@@ -60,6 +60,9 @@ const TechnicalConditions = lazy(() =>
     '../pages/auxiliaryPages/certificate/TechnicalConditions/TechnicalConditions.jsx'
   ),
 );
+const AviationRules = lazy(() =>
+  import('../pages/auxiliaryPages/certificate/AviationRules/AviationRules'),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -164,6 +167,10 @@ export default class App extends Component {
               <Route
                 path={routes.TECHNICAL_CONDITIONS}
                 component={withServicesNavLink(TechnicalConditions)}
+              />
+              <Route
+                path={routes.AVIATION_RULES}
+                component={withServicesNavLink(AviationRules)}
               />
               <Route
                 path={routes.CERTIFICATE_ISO_9001}
