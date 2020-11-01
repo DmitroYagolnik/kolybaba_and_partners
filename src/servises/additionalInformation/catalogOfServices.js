@@ -71,6 +71,11 @@ const catalogOfServices = [
         servicePageName: 'Certificate.Aviation_rules-link',
         routePage: routes.AVIATION_RULES,
       },
+      {
+        servicePageName:
+          'Certificate.Categorization_of_accommodation_objects-link',
+        routePage: routes.CATEGORIZATION_OF_ACCOMMODATION_OBJECTS,
+      },
     ],
   },
   {

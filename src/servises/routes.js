@@ -16,6 +16,8 @@ const routes = {
     '/services/sanitary-epidemiological_examination',
   TECHNICAL_CONDITIONS: '/services/technical_conditions',
   AVIATION_RULES: '/services/aviation_rules',
+  CATEGORIZATION_OF_ACCOMMODATION_OBJECTS:
+    '/services/categorization_of_accommodation_objects',
   CERTIFICATE_ISO_9001: '/services/certificate_ISO_9001',
   CERTIFICATE_ISO_22000: '/services/certificate_ISO_22000',
   CERTIFICATE_ISO_14001: '/services/certificate_ISO_14001',

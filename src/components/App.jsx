@@ -63,6 +63,11 @@ const TechnicalConditions = lazy(() =>
 const AviationRules = lazy(() =>
   import('../pages/auxiliaryPages/certificate/AviationRules/AviationRules'),
 );
+const CategorizationOfAccommodationObjects = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/certificate/CategorizationOfAccommodationObjects/CategorizationOfAccommodationObjects'
+  ),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -171,6 +176,12 @@ export default class App extends Component {
               <Route
                 path={routes.AVIATION_RULES}
                 component={withServicesNavLink(AviationRules)}
+              />
+              <Route
+                path={routes.CATEGORIZATION_OF_ACCOMMODATION_OBJECTS}
+                component={withServicesNavLink(
+                  CategorizationOfAccommodationObjects,
+                )}
               />
               <Route
                 path={routes.CERTIFICATE_ISO_9001}
