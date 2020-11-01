@@ -76,6 +76,10 @@ const catalogOfServices = [
           'Certificate.Categorization_of_accommodation_objects-link',
         routePage: routes.CATEGORIZATION_OF_ACCOMMODATION_OBJECTS,
       },
+      {
+        servicePageName: 'Certificate.Refusal_letter-link',
+        routePage: routes.REFUSAL_LETTER,
+      },
     ],
   },
   {

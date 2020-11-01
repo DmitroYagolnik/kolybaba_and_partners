@@ -68,6 +68,9 @@ const CategorizationOfAccommodationObjects = lazy(() =>
     '../pages/auxiliaryPages/certificate/CategorizationOfAccommodationObjects/CategorizationOfAccommodationObjects'
   ),
 );
+const RefusalLetter = lazy(() =>
+  import('../pages/auxiliaryPages/certificate/RefusalLetter/RefusalLetter'),
+);
 const CertificateISO9001 = lazy(() =>
   import(
     '../pages/auxiliaryPages/certificateISO/CertificateISO9001/CertificateISO9001'
@@ -182,6 +185,10 @@ export default class App extends Component {
                 component={withServicesNavLink(
                   CategorizationOfAccommodationObjects,
                 )}
+              />
+              <Route
+                path={routes.REFUSAL_LETTER}
+                component={withServicesNavLink(RefusalLetter)}
               />
               <Route
                 path={routes.CERTIFICATE_ISO_9001}

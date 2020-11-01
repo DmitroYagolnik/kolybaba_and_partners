@@ -18,6 +18,7 @@ const routes = {
   AVIATION_RULES: '/services/aviation_rules',
   CATEGORIZATION_OF_ACCOMMODATION_OBJECTS:
     '/services/categorization_of_accommodation_objects',
+  REFUSAL_LETTER: '/services/refusal_letter',
   CERTIFICATE_ISO_9001: '/services/certificate_ISO_9001',
   CERTIFICATE_ISO_22000: '/services/certificate_ISO_22000',
   CERTIFICATE_ISO_14001: '/services/certificate_ISO_14001',

@@ -46,6 +46,8 @@ import AviationRulesUk from './pages/auxiliaryPages/certificate/AviationRules/tr
 import AviationRulesRu from './pages/auxiliaryPages/certificate/AviationRules/translations/AviationRulesRu.json';
 import CategorizationOfAccommodationObjectsUk from './pages/auxiliaryPages/certificate/CategorizationOfAccommodationObjects/translations/CategorizationOfAccommodationObjectsUk.json';
 import CategorizationOfAccommodationObjectsRu from './pages/auxiliaryPages/certificate/CategorizationOfAccommodationObjects/translations/CategorizationOfAccommodationObjectsRu.json';
+import RefusalLetterUk from './pages/auxiliaryPages/certificate/RefusalLetter/translations/RefusalLetterUk.json';
+import RefusalLetterRu from './pages/auxiliaryPages/certificate/RefusalLetter/translations/RefusalLetterRu.json';
 
 import CertificateISO9001Uk from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Uk.json';
 import CertificateISO9001Ru from './pages/auxiliaryPages/certificateISO/CertificateISO9001/translations/CertificateISO9001Ru.json';
@@ -83,6 +85,7 @@ i18n
           ...TechnicalConditionsUk,
           ...AviationRulesUk,
           ...CategorizationOfAccommodationObjectsUk,
+          ...RefusalLetterUk,
           ...CertificateISO9001Uk,
           ...CertificateISO22000Uk,
           ...CertificateISO14001Uk,
@@ -111,6 +114,7 @@ i18n
           ...TechnicalConditionsRu,
           ...AviationRulesRu,
           ...CategorizationOfAccommodationObjectsRu,
+          ...RefusalLetterRu,
           ...CertificateISO9001Ru,
           ...CertificateISO22000Ru,
           ...CertificateISO14001Ru,
