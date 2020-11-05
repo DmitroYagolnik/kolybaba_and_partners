@@ -2,6 +2,7 @@ import occupationalHealthIcon from '../img/services/occupational_health-icon.png
 import licenseIcon from '../img/services/license-icon.png';
 import certificateIcon from '../img/services/certificate-icon.png';
 import ISOicon from '../img/services/ISO-icon.png';
+import copyrightIcon from '../img/services/copyright-icon.png';
 
 function chooseImgIcon(nameImgIcon) {
   let imgIcon;
@@ -20,6 +21,10 @@ function chooseImgIcon(nameImgIcon) {
 
     case 'ISOicon':
       imgIcon = ISOicon;
+      break;
+
+    case 'copyrightIcon':
+      imgIcon = copyrightIcon;
       break;
 
     default:

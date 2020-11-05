@@ -106,21 +106,21 @@ const catalogOfServices = [
     ],
   },
 
-  // {
-  //   typeServices: '',
-  //   img: '',
-  //   alt: '',
-  //   services: [
-  //     {
-  //       servicePageName: '',
-  //       routePage: '',
-  //     },
-  //     {
-  //       servicePageName: '',
-  //       routePage: '',
-  //     },
-  //   ],
-  // },
+  {
+    typeServices: 'Copyright.Copyright-title',
+    img: 'copyrightIcon',
+    alt: 'Copyright.Copyright_icon-alt',
+    services: [
+      {
+        servicePageName: '',
+        routePage: '',
+      },
+      // {
+      //   servicePageName: '',
+      //   routePage: '',
+      // },
+    ],
+  },
 ];
 
 export default catalogOfServices;
