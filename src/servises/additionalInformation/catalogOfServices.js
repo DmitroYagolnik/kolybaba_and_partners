@@ -112,8 +112,9 @@ const catalogOfServices = [
     alt: 'Copyright.Copyright_icon-alt',
     services: [
       {
-        servicePageName: '',
-        routePage: '',
+        servicePageName:
+          'Copyrighte_ISO.Trademark_registration_and_protection-link',
+        routePage: routes.TRADEMARK_REGISTRATION_AND_PROTECTION,
       },
       // {
       //   servicePageName: '',

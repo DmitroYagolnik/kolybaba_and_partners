@@ -91,6 +91,11 @@ const StandardASEN9100 = lazy(() =>
     '../pages/auxiliaryPages/certificateISO/StandardASEN9100/StandardASEN9100'
   ),
 );
+const TrademarkRegistrationAndProtection = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/TrademarkRegistrationAndProtection'
+  ),
+);
 
 export default class App extends Component {
   state = {
@@ -205,6 +210,12 @@ export default class App extends Component {
               <Route
                 path={routes.STANDART_AS_EN_9100}
                 component={withServicesNavLink(StandardASEN9100)}
+              />
+              <Route
+                path={routes.TRADEMARK_REGISTRATION_AND_PROTECTION}
+                component={withServicesNavLink(
+                  TrademarkRegistrationAndProtection,
+                )}
               />
               <Redirect to={routes.SERVICES} />
             </Switch>

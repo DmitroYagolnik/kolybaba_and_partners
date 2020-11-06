@@ -23,6 +23,8 @@ const routes = {
   CERTIFICATE_ISO_22000: '/services/certificate_ISO_22000',
   CERTIFICATE_ISO_14001: '/services/certificate_ISO_14001',
   STANDART_AS_EN_9100: '/services/standard_AS_EN_9100',
+  TRADEMARK_REGISTRATION_AND_PROTECTION:
+    '/services/trademark_registration_and_protection',
 };
 
 export default routes;

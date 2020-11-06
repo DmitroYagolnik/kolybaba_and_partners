@@ -58,6 +58,9 @@ import CertificateISO14001Ru from './pages/auxiliaryPages/certificateISO/Certifi
 import StandardASEN9100Uk from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Uk.json';
 import StandardASEN9100Ru from './pages/auxiliaryPages/certificateISO/StandardASEN9100/translations/StandardASEN9100Ru.json';
 
+import TrademarkRegistrationAndProtectionUk from './pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/translations/TrademarkRegistrationAndProtectionUk.json';
+import TrademarkRegistrationAndProtectionRu from './pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/translations/TrademarkRegistrationAndProtectionRu.json';
+
 i18n
   .use(XHR)
   .use(initReactI18next)
@@ -90,6 +93,7 @@ i18n
           ...CertificateISO22000Uk,
           ...CertificateISO14001Uk,
           ...StandardASEN9100Uk,
+          ...TrademarkRegistrationAndProtectionUk,
         },
       },
       ru: {
@@ -119,6 +123,7 @@ i18n
           ...CertificateISO22000Ru,
           ...CertificateISO14001Ru,
           ...StandardASEN9100Ru,
+          ...TrademarkRegistrationAndProtectionRu,
         },
       },
     },
