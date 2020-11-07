@@ -101,6 +101,11 @@ const PreliminaryTrademarkSearch = lazy(() =>
     '../pages/auxiliaryPages/copyright/PreliminaryTrademarkSearch/PreliminaryTrademarkSearch'
   ),
 );
+const PatentForTheInvention = lazy(() =>
+  import(
+    '../pages/auxiliaryPages/copyright/PatentForTheInvention/PatentForTheInvention'
+  ),
+);
 
 export default class App extends Component {
   state = {
@@ -225,6 +230,10 @@ export default class App extends Component {
               <Route
                 path={routes.PRELIMINARY_TRADEMARK_SEARCH}
                 component={withServicesNavLink(PreliminaryTrademarkSearch)}
+              />
+              <Route
+                path={routes.PATENT_FOR_THE_INVENTION}
+                component={withServicesNavLink(PatentForTheInvention)}
               />
               <Redirect to={routes.SERVICES} />
             </Switch>

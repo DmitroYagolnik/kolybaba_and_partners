@@ -119,6 +119,10 @@ const catalogOfServices = [
         servicePageName: 'Copyright.Preliminary_trademark_search-link',
         routePage: routes.PRELIMINARY_TRADEMARK_SEARCH,
       },
+      {
+        servicePageName: 'Copyright.Patent_for_the_invention-link',
+        routePage: routes.PATENT_FOR_THE_INVENTION,
+      },
     ],
   },
 ];

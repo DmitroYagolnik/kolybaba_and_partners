@@ -125,6 +125,10 @@ h2 {
   color: gold;
 }
 
+.content h3 {
+  font-size: 16px;
+}
+
 li a,
 p a,
 h4 a {
@@ -166,8 +170,9 @@ h4 a:hover {
   }
 
   h4,
-  h4 a {
-    font-size: 20px;
+  h4 a,
+  .content h3 {
+    font-size: 16px;
   }
 
   .content .page-image {
@@ -200,5 +205,8 @@ h4 a:hover {
   p::first-letter,
   span::first-letter {
     padding-left: 20px;
+  }
+  .content h3 {
+    font-size: 18px;
   }
 }

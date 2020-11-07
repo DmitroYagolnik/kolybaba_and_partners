@@ -62,6 +62,8 @@ import TrademarkRegistrationAndProtectionUk from './pages/auxiliaryPages/copyrig
 import TrademarkRegistrationAndProtectionRu from './pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/translations/TrademarkRegistrationAndProtectionRu.json';
 import PreliminaryTrademarkSearchUk from './pages/auxiliaryPages/copyright/PreliminaryTrademarkSearch/translations/PreliminaryTrademarkSearchUk.json';
 import PreliminaryTrademarkSearchRu from './pages/auxiliaryPages/copyright/PreliminaryTrademarkSearch/translations/PreliminaryTrademarkSearchRu.json';
+import PatentForTheInventionUk from './pages/auxiliaryPages/copyright/PatentForTheInvention/translations/PatentForTheInventionUk.json';
+import PatentForTheInventionRu from './pages/auxiliaryPages/copyright/PatentForTheInvention/translations/PatentForTheInventionRu.json';
 
 i18n
   .use(XHR)
@@ -97,6 +99,7 @@ i18n
           ...StandardASEN9100Uk,
           ...TrademarkRegistrationAndProtectionUk,
           ...PreliminaryTrademarkSearchUk,
+          ...PatentForTheInventionUk,
         },
       },
       ru: {
@@ -128,6 +131,7 @@ i18n
           ...StandardASEN9100Ru,
           ...TrademarkRegistrationAndProtectionRu,
           ...PreliminaryTrademarkSearchRu,
+          ...PatentForTheInventionRu,
         },
       },
     },

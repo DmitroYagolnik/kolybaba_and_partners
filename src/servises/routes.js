@@ -26,6 +26,7 @@ const routes = {
   TRADEMARK_REGISTRATION_AND_PROTECTION:
     '/services/trademark_registration_and_protection',
   PRELIMINARY_TRADEMARK_SEARCH: '/services/preliminary_trademark_search',
+  PATENT_FOR_THE_INVENTION: '/services/patent_for_the_invention',
 };
 
 export default routes;

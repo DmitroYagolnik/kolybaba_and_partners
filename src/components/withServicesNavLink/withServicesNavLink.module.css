@@ -52,7 +52,7 @@
 
   .noMobileContent {
     display: grid;
-    align-content: center;
+    align-content: flex-start;
   }
 
   .NavContent {
