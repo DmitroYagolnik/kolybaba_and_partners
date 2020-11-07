@@ -25,6 +25,7 @@ const routes = {
   STANDART_AS_EN_9100: '/services/standard_AS_EN_9100',
   TRADEMARK_REGISTRATION_AND_PROTECTION:
     '/services/trademark_registration_and_protection',
+  PRELIMINARY_TRADEMARK_SEARCH: '/services/preliminary_trademark_search',
 };
 
 export default routes;

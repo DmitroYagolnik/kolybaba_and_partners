@@ -6,7 +6,7 @@ const TrademarkRegistrationAndProtection = () => {
   return (
     <>
       <h2 className="page_services-title">
-        {t('Copyrighte_ISO.Trademark_registration_and_protection-link')}
+        {t('Copyright.Trademark_registration_and_protection-link')}
       </h2>
       <p className="page-text">
         {t('TrademarkRegistrationAndProtection.paragraph_1')}

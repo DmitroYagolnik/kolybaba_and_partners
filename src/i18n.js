@@ -60,6 +60,8 @@ import StandardASEN9100Ru from './pages/auxiliaryPages/certificateISO/StandardAS
 
 import TrademarkRegistrationAndProtectionUk from './pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/translations/TrademarkRegistrationAndProtectionUk.json';
 import TrademarkRegistrationAndProtectionRu from './pages/auxiliaryPages/copyright/TrademarkRegistrationAndProtection/translations/TrademarkRegistrationAndProtectionRu.json';
+import PreliminaryTrademarkSearchUk from './pages/auxiliaryPages/copyright/PreliminaryTrademarkSearch/translations/PreliminaryTrademarkSearchUk.json';
+import PreliminaryTrademarkSearchRu from './pages/auxiliaryPages/copyright/PreliminaryTrademarkSearch/translations/PreliminaryTrademarkSearchRu.json';
 
 i18n
   .use(XHR)
@@ -94,6 +96,7 @@ i18n
           ...CertificateISO14001Uk,
           ...StandardASEN9100Uk,
           ...TrademarkRegistrationAndProtectionUk,
+          ...PreliminaryTrademarkSearchUk,
         },
       },
       ru: {
@@ -124,6 +127,7 @@ i18n
           ...CertificateISO14001Ru,
           ...StandardASEN9100Ru,
           ...TrademarkRegistrationAndProtectionRu,
+          ...PreliminaryTrademarkSearchRu,
         },
       },
     },
