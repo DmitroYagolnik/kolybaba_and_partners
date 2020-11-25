@@ -2,6 +2,7 @@ import React from 'react';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneIcon from '@material-ui/icons/Phone';
 import style from './ContactInformation.module.css';
+import conversionPhoneNumber from '../../servises/conversionPhoneNumber';
 import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 
 const ContactInformation = () => {
@@ -12,14 +13,14 @@ const ContactInformation = () => {
           <MailOutlineIcon fontSize="small" />
           <span>{contactInformation.email}</span>
         </li>
-        <li className={style.contactItem}>
-          <PhoneIcon fontSize="small" />
-          <span>{contactInformation.phone_number_1}</span>
-        </li>
-        <li className={style.contactItem}>
-          <PhoneIcon fontSize="small" />
-          <span>{contactInformation.phone_number_2}</span>
-        </li>
+        {contactInformation.phone_numbers.map(elem => {
+          return (
+            <li key={elem} className={style.contactItem}>
+              <PhoneIcon fontSize="small" />
+              <span>{conversionPhoneNumber(elem)}</span>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );

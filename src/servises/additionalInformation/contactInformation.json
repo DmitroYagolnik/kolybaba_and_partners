@@ -1,6 +1,5 @@
 {
+  "working_hours": "ПН-ПТ: 09:00 - 19:00",
   "email": "Kolybaba_777@ukr.net",
-  "phone_number_1": "+38(099) 901-99-98",
-  "phone_number_2": "+38(098) 927-81-09",
-  "working_hours": "ПН-ПТ: 09:00 - 19:00"
+  "phone_numbers": ["+380999019998", "+380989278109"]
 }
