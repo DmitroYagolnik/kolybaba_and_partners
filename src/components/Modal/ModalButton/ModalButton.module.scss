@@ -1,0 +1,43 @@
+.ModalButton {
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 30%;
+  padding: 5px;
+  border: 3px solid #333333;
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 14px;
+  color: black;
+}
+
+.ModalButton:focus {
+  outline: none;
+}
+
+.CloseBtn {
+  composes: ModalButton;
+  background-image: linear-gradient(#cc0000, #ffffff, #cc0000);
+}
+
+.ResetBtn {
+  composes: ModalButton;
+  background-image: linear-gradient(#ffcc00, #ffffff, #ffcc00);
+}
+
+.SubmitBtn {
+  composes: ModalButton;
+  background-image: linear-gradient(#00cc00, #ffffff, #00cc00);
+}
+
+@media (min-width: 768px) {
+  .ModalButton {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ModalButton {
+    font-size: 18px;
+  }
+}

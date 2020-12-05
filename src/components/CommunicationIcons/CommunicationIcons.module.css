@@ -1,0 +1,21 @@
+.Communication-icons-wrapper {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.Phone-button {
+  background-color: inherit;
+  border: none;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.Phone-button:focus {
+  outline: none;
+}

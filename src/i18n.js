@@ -11,6 +11,9 @@ import SiteDescriptionTranslationRu from './components/SiteDescription/translati
 import ServicesPageNavLinkTranslationUk from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationUk.json';
 import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationRu.json';
 
+import ModalUk from './components/Modal/translations/ModalUk.json';
+import ModalRu from './components/Modal/translations/ModalRu.json';
+
 import AboutUsPageTranslationUk from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationUk.json';
 import AboutUsPageTranslationRu from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationRu.json';
 import ServicesPageTranslationUk from './pages/mainPages/Services/translations/ServicesPageTranslationUk.json';
@@ -74,6 +77,7 @@ i18n
           ...PageNavLinkTranslationUk,
           ...SiteDescriptionTranslationUk,
           ...ServicesPageNavLinkTranslationUk,
+          ...ModalUk,
           ...AboutUsPageTranslationUk,
           ...ServicesPageTranslationUk,
           ...DeclarationMTBTranslationUk,
@@ -105,6 +109,7 @@ i18n
           ...PageNavLinkTranslationRu,
           ...SiteDescriptionTranslationRu,
           ...ServicesPageNavLinkTranslationRu,
+          ...ModalRu,
           ...AboutUsPageTranslationRu,
           ...ServicesPageTranslationRu,
           ...DeclarationMTBTranslationRu,

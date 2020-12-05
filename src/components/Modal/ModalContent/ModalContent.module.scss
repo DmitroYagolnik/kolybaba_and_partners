@@ -1,0 +1,69 @@
+$Font-family: Arial, Helvetica, sans-serif;
+$Mobile_font-size: 20px;
+$Mobile_margin: 10px auto;
+
+.ModalContent {
+  width: 90%;
+  margin: $Mobile_margin;
+  text-align: center;
+}
+
+.ModalContentTitle {
+  margin: $Mobile_margin;
+  font-family: $Font-family;
+  font-size: $Mobile_font-size;
+}
+
+.PhaneNumbersList {
+  display: flex;
+  flex-direction: column;
+  // width: 100%;
+  // height: 250px;
+  // background-color: grey;
+}
+
+.contactItem {
+  width: 100%;
+  margin: 10px auto;
+  // background-color: hotpink;
+}
+
+.contactLink {
+  width: 100%;
+  height: auto;
+  border: 2px solid #000000;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.contactLink > span {
+  font-family: $Font-family;
+  font-weight: bolder;
+  font-size: $Mobile_font-size;
+  color: green;
+  text-shadow: 1px 1px 1px black;
+}
+
+.contactLink:active {
+  border-color: gold;
+}
+
+.contactLink:active > span {
+  color: gold;
+}
+
+@media (min-width: 768px) {
+  .ModalContentTitle {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ModalContentTitle {
+    font-size: 28px;
+  }
+}

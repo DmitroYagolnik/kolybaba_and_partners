@@ -1,5 +1,9 @@
 {
   "working_hours": "ПН-ПТ: 09:00 - 19:00",
   "email": "Kolybaba_777@ukr.net",
-  "phone_numbers": ["+380999019998", "+380989278109"]
+  "phone_numbers": ["+380999019998", "+380989278109"],
+  "viber_number": "+380999019998",
+  "emailTest": "dima_yagolnik@ukr.net",
+  "phone_numbersTest": ["+380637615427", "+380982284869"],
+  "viber_numberTest": "+380999019998"
 }
