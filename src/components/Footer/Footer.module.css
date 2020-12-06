@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.contactsInformationWrapper:last-child {
+  padding-bottom: 90px;
+}
+
 .footerTitle {
   margin: 10px 0;
   font-size: 20px;
@@ -13,5 +17,11 @@
   .contactsInformationWrapper {
     flex-direction: row;
     justify-content: space-around;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contactsInformationWrapper:last-child {
+    padding-bottom: 0;
   }
 }
