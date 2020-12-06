@@ -8,8 +8,8 @@ import contactInformation from '../../servises/additionalInformation/contactInfo
 import style from './CommunicationIcons.module.css';
 
 const CommunicationIcons = ({ handlePhoneBtn }) => {
-  const emailAddress = `mailto:${contactInformation.emailTest}`;
-  const viberAddress = `viber://chat?number=${contactInformation.emailTest}`;
+  const emailAddress = `mailto:${contactInformation.email}`;
+  const viberAddress = `viber://chat?number=${contactInformation.viber_number}`;
   return (
     <div className={style['Communication-icons-wrapper']}>
       {isMobileOnly && (
