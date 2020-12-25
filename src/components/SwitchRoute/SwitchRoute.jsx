@@ -1,11 +1,14 @@
+/**
+ * Даний компонент відповідає за "рендерення" веб-сторінок
+ * відповідно до заданого шляху.
+ */
 import React, { lazy, Suspense } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 
 import withServicesNavLink from '../withServicesNavLink/withServicesNavLink';
 import routes from '../../servises/routes';
 
-const AboutUs = lazy(() => import('../../pages/mainPages/AboutUs/AboutUs'));
-const Services = lazy(() => import('../../pages/mainPages/Services/Services'));
+const Home = lazy(() => import('../../pages/Home/Home'));
 const DeclarationMTB = lazy(() =>
   import(
     '../../pages/auxiliaryPages/occupationalHealth/DeclarationMTB/DeclarationMTB'
@@ -108,8 +111,7 @@ const SwitchRoute = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
-        <Route exact path={routes.SERVICES} component={Services} />
-        <Route path={routes.ABOUT_US} component={AboutUs} />
+        <Route exact path={routes.HOME} component={Home} />
         <Route
           path={routes.DECLARATION_MTB}
           component={withServicesNavLink(DeclarationMTB)}
@@ -194,7 +196,7 @@ const SwitchRoute = () => {
           path={routes.PATENT_FOR_THE_INVENTION}
           component={withServicesNavLink(PatentForTheInvention)}
         />
-        <Redirect to={routes.SERVICES} />
+        <Redirect to={routes.HOME} />
       </Switch>
     </Suspense>
   );

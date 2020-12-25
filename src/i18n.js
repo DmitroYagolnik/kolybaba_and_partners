@@ -14,10 +14,8 @@ import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/t
 import ModalUk from './components/Modal/translations/ModalUk.json';
 import ModalRu from './components/Modal/translations/ModalRu.json';
 
-import AboutUsPageTranslationUk from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationUk.json';
-import AboutUsPageTranslationRu from './pages/mainPages/AboutUs/translations/AboutUsPageTranslationRu.json';
-import ServicesPageTranslationUk from './pages/mainPages/Services/translations/ServicesPageTranslationUk.json';
-import ServicesPageTranslationRu from './pages/mainPages/Services/translations/ServicesPageTranslationRu.json';
+import HomePageUk from './pages/Home/translations/HomePageUk.json';
+import HomePageRu from './pages/Home/translations/HomePageRu.json';
 
 import DeclarationMTBTranslationUk from './pages/auxiliaryPages/occupationalHealth/DeclarationMTB/translations/DeclarationMTBTranslationUk.json';
 import DeclarationMTBTranslationRu from './pages/auxiliaryPages/occupationalHealth/DeclarationMTB/translations/DeclarationMTBTranslationRu.json';
@@ -78,8 +76,7 @@ i18n
           ...SiteDescriptionTranslationUk,
           ...ServicesPageNavLinkTranslationUk,
           ...ModalUk,
-          ...AboutUsPageTranslationUk,
-          ...ServicesPageTranslationUk,
+          ...HomePageUk,
           ...DeclarationMTBTranslationUk,
           ...PermissionUseHazardousEquipmentUk,
           ...PermissionHazardousWorkAndEquipmenUk,
@@ -110,8 +107,7 @@ i18n
           ...SiteDescriptionTranslationRu,
           ...ServicesPageNavLinkTranslationRu,
           ...ModalRu,
-          ...AboutUsPageTranslationRu,
-          ...ServicesPageTranslationRu,
+          ...HomePageRu,
           ...DeclarationMTBTranslationRu,
           ...PermissionUseHazardousEquipmentRu,
           ...PermissionHazardousWorkAndEquipmenRu,

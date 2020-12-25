@@ -35,7 +35,7 @@ class Header extends Component {
           typeTransition="ScoleTransition"
           isShow={isShowHeaderComponent}
         >
-          <Link to={routes.SERVICES}>
+          <Link to={routes.HOME}>
             <img src={logo} alt="Dandelion" className={style.logoImg} />
           </Link>
         </Transition>

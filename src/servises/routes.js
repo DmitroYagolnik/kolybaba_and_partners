@@ -1,6 +1,5 @@
 const routes = {
-  SERVICES: '/',
-  ABOUT_US: '/about_us',
+  HOME: '/',
   DECLARATION_MTB: '/services/declaration_MTB',
   PERMISSION_USE_HAZARDOUS_EQUIPMENT:
     '/services/permission_use_hazardous_equipment',
