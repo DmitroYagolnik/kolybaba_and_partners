@@ -6,8 +6,6 @@ import FooterTranslationUk from './components/Footer/translations/FooterTranslat
 import FooterTranslationRu from './components/Footer/translations/FooterTranslationRu.json';
 import PageNavLinkTranslationUk from './components/PageNavLink/translations/PageNavLinkTranslationUk.json';
 import PageNavLinkTranslationRu from './components/PageNavLink/translations/PageNavLinkTranslationRu.json';
-import SiteDescriptionTranslationUk from './components/SiteDescription/translations/SiteDescriptionTranslationUk.json';
-import SiteDescriptionTranslationRu from './components/SiteDescription/translations/SiteDescriptionTranslationRu.json';
 import ServicesPageNavLinkTranslationUk from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationUk.json';
 import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationRu.json';
 
@@ -73,7 +71,6 @@ i18n
         translations: {
           ...FooterTranslationUk,
           ...PageNavLinkTranslationUk,
-          ...SiteDescriptionTranslationUk,
           ...ServicesPageNavLinkTranslationUk,
           ...ModalUk,
           ...HomePageUk,
@@ -104,7 +101,6 @@ i18n
         translations: {
           ...FooterTranslationRu,
           ...PageNavLinkTranslationRu,
-          ...SiteDescriptionTranslationRu,
           ...ServicesPageNavLinkTranslationRu,
           ...ModalRu,
           ...HomePageRu,

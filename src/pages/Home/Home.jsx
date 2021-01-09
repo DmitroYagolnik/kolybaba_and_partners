@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import SiteDescription from '../../components/SiteDescription/SiteDescription';
 import KulbabaFoto from '../../img/Kulbaba-foto.png';
 import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 import catalogOfServices from '../../servises/additionalInformation/catalogOfServices';
@@ -12,14 +11,13 @@ const HomePage = () => {
   const { t } = useTranslation();
   return (
     <div className="content">
-      <SiteDescription />
+      <h2 className="AboutUs_title">{t('HomePage.AboutUs.Title')}</h2>
       <section className="AboutUs">
         <img
           className="page-image"
           src={KulbabaFoto}
           alt={t('HomePage.AboutUs.AboutUsFotoAlt')}
         />
-        <h2 className="AboutUs_title">{t('HomePage.AboutUs.Title')}</h2>
         <p className="page-text">{t('HomePage.AboutUs.paragraph_1')}</p>
         <p className="page-text">{t('HomePage.AboutUs.paragraph_2')}</p>
         <p className="page-text">{t('HomePage.AboutUs.paragraph_3')}</p>
@@ -80,12 +78,9 @@ const HomePage = () => {
         </div>
         <p className="page-text">{t('HomePage.Services.paragraph_3')}</p>
       </section>
+      {/* <ReactSVG src={ImgSVG} /> */}
     </div>
   );
 };
 
 export default HomePage;
-
-// "HomePage.AboutUs.paragraph_4.part_1": "На сторінці ",
-//   "HomePage.AboutUs.paragraph_4.part_2": "«ПОСЛУГИ» ",
-//   "HomePage.AboutUs.paragraph_4.part_3": "ви можете ознайомитися з повним переліком послуг, які ми пропонуємо. Якщо ви не знайшли того що шукали, напишіть нам на електронну пошту: ",
