@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import KulbabaFoto from '../../img/Kulbaba-foto.png';
+import KulibabaFoto from '../../img/Kulibaba-foto.png';
 import contactInformation from '../../servises/additionalInformation/contactInformation.json';
 import catalogOfServices from '../../servises/additionalInformation/catalogOfServices';
 import chooseImgIcon from '../../servises/chooseImgIcon';
@@ -15,7 +15,7 @@ const HomePage = () => {
       <section className="AboutUs">
         <img
           className="page-image"
-          src={KulbabaFoto}
+          src={KulibabaFoto}
           alt={t('HomePage.AboutUs.AboutUsFotoAlt')}
         />
         <p className="page-text">{t('HomePage.AboutUs.paragraph_1')}</p>
@@ -67,7 +67,12 @@ const HomePage = () => {
                   {services.map(({ servicePageName, routePage }) => {
                     return (
                       <li key={routePage} className={style.LinkArticleListItem}>
-                        <Link to={routePage}>{t(servicePageName)}</Link>
+                        <Link
+                          className={style.LinkArticleListLink}
+                          to={routePage}
+                        >
+                          {t(servicePageName)}
+                        </Link>
                       </li>
                     );
                   })}
@@ -78,7 +83,6 @@ const HomePage = () => {
         </div>
         <p className="page-text">{t('HomePage.Services.paragraph_3')}</p>
       </section>
-      {/* <ReactSVG src={ImgSVG} /> */}
     </div>
   );
 };

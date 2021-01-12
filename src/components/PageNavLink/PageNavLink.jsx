@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { useTranslation } from 'react-i18next';
 import routes from '../../servises/routes';
+// import ServicesPageNavLink from '../ServicesPageNavLink/ServicesPageNavLink';
 import ChangeLanguageBtn from '../ChangeLanguageBtn/ChangeLanguageBtn';
 import style from './PageNavLink.module.css';
 
@@ -14,6 +15,7 @@ const PageNavLink = ({ siteLanguage, changeLanguage }) => {
         <li className={style.navLink}>
           <NavLink to={routes.HOME}>{t('PageNavLink.Home_page')}</NavLink>
         </li>
+        {/* <ServicesPageNavLink isNavLink /> */}
         <li className={style.navLink}>
           <ChangeLanguageBtn
             changeLanguage={changeLanguage}
