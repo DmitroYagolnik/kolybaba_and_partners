@@ -7,9 +7,11 @@
   flex-direction: row;
   justify-content: space-between;
   width: 90%;
+  z-index: 1;
 }
 
 .Phone-button {
+  z-index: inherit;
   background-color: inherit;
   border: none;
   overflow: visible;

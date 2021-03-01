@@ -1,0 +1,39 @@
+.navItem {
+  display: block;
+  font-family: 'Noto Sans', 'Arial Narrow Bold', sans-serif;
+  margin: 3px auto;
+  padding: 7px 10px;
+  font-size: 14px;
+  color: #000000;
+  text-shadow: 0 0 #000000;
+  transition: color 0.6s ease-in-out, text-shadow 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+  border: 3px solid transparent;
+}
+
+.navItem::first-letter {
+  margin-left: 10px;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  color: gold;
+  text-shadow: 1px 1px 1px #000000;
+  background-color: #4682b4;
+  border-color: gold;
+  transition: all 0.6s ease-in-out;
+}
+
+.hoveredDropdown {
+  border-color: gold;
+  background-color: #4682b4;
+  color: gold;
+  text-shadow: 1px 1px 1px #000000;
+  transition: all 0.6s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .navItem::first-letter {
+    margin-left: 0;
+  }
+}

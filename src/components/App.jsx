@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { isMobile } from 'react-device-detect';
 import Header from './Header/Header';
-import PageNavLink from './PageNavLink/PageNavLink';
+import NavMenu from './NavMenu/NavMenu';
 import Footer from './Footer/Footer';
 import CommunicationIcons from './CommunicationIcons/CommunicationIcons';
 import '../index.css';
@@ -45,7 +45,7 @@ export default class App extends Component {
       <>
         <Header />
         <main>
-          <PageNavLink
+          <NavMenu
             changeLanguage={this.toggleLanguage}
             siteLanguage={siteLanguage}
           />

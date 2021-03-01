@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,8 +23,8 @@ span {
   text-align: justify;
 }
 
-p::first-letter,
-span::first-letter {
+.content p::first-letter,
+.content span::first-letter {
   padding-left: 10px;
 }
 
@@ -56,10 +58,11 @@ h4 a {
 
 body {
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 header {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -154,16 +157,6 @@ h4 a:hover {
   transition: color 0.6s ease-in-out, text-shadow 0.6s ease-in-out;
 }
 
-.banner_img-wrapper {
-  background-color: lightgray;
-}
-
-.banner-img {
-  max-width: 100%;
-  height: auto;
-  margin: 10px auto;
-}
-
 @media (min-width: 768px) {
   h1 {
     font-size: 24px;
@@ -205,8 +198,8 @@ h4 a:hover {
     font-size: 22px;
   }
 
-  p::first-letter,
-  span::first-letter {
+  .content p::first-letter,
+  .content span::first-letter {
     padding-left: 15px;
   }
 }
@@ -219,8 +212,8 @@ h4 a:hover {
     font-size: 20px;
   }
 
-  p::first-letter,
-  span::first-letter {
+  .content p::first-letter,
+  .content span::first-letter {
     padding-left: 20px;
   }
   .content h2 {
@@ -230,5 +223,6 @@ h4 a:hover {
 
   .content .page-image {
     box-shadow: 3px 3px 3px gray;
+    margin: 0 25px;
   }
 }

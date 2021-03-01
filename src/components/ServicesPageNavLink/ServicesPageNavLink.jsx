@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import PropTypes from 'prop-types';
-import catalogOfServices from '../../servises/additionalInformation/catalogOfServices';
+import catalogOfServices from '../../servises/additionalInformation/catalogOfServices/catalogOfServices';
 import chooseImgIcon from '../../servises/chooseImgIcon';
 import style from './ServicesPageNavLink.module.css';
 

@@ -1,0 +1,24 @@
+.dropdownItem {
+  margin: 3px auto;
+}
+
+.LinkArticleList {
+  text-align: left;
+  display: block;
+  font-family: 'Noto Sans', 'Arial Narrow Bold', sans-serif;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 3px solid transparent;
+  transition: all 0.6s ease-in-out;
+}
+
+.LinkArticleList::first-letter {
+  margin-left: 10px;
+}
+
+.LinkArticleList:hover {
+  background-color: #4682b4;
+  border-top-color: gold;
+  border-bottom-color: gold;
+  transition: all 0.6s ease-in-out;
+}

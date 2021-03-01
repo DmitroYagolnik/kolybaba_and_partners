@@ -4,10 +4,10 @@ import XHR from 'i18next-xhr-backend';
 
 import FooterTranslationUk from './components/Footer/translations/FooterTranslationUk.json';
 import FooterTranslationRu from './components/Footer/translations/FooterTranslationRu.json';
-import PageNavLinkTranslationUk from './components/PageNavLink/translations/PageNavLinkTranslationUk.json';
-import PageNavLinkTranslationRu from './components/PageNavLink/translations/PageNavLinkTranslationRu.json';
-import ServicesPageNavLinkTranslationUk from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationUk.json';
-import ServicesPageNavLinkTranslationRu from './components/ServicesPageNavLink/translations/ServicesPageNavLinkTranslationRu.json';
+import NavMenuTranslationUk from './components/NavMenu/translations/NavMenuTranslationUk.json';
+import NavMenuTranslationRu from './components/NavMenu/translations/NavMenuTranslationRu.json';
+import catalogOfServicesUk from './servises/additionalInformation/catalogOfServices/translations/catalogOfServicesUk.json';
+import catalogOfServicesRu from './servises/additionalInformation/catalogOfServices/translations/catalogOfServicesRu.json';
 
 import ModalUk from './components/Modal/translations/ModalUk.json';
 import ModalRu from './components/Modal/translations/ModalRu.json';
@@ -70,8 +70,8 @@ i18n
       uk: {
         translations: {
           ...FooterTranslationUk,
-          ...PageNavLinkTranslationUk,
-          ...ServicesPageNavLinkTranslationUk,
+          ...NavMenuTranslationUk,
+          ...catalogOfServicesUk,
           ...ModalUk,
           ...HomePageUk,
           ...DeclarationMTBTranslationUk,
@@ -100,8 +100,8 @@ i18n
       ru: {
         translations: {
           ...FooterTranslationRu,
-          ...PageNavLinkTranslationRu,
-          ...ServicesPageNavLinkTranslationRu,
+          ...NavMenuTranslationRu,
+          ...catalogOfServicesRu,
           ...ModalRu,
           ...HomePageRu,
           ...DeclarationMTBTranslationRu,

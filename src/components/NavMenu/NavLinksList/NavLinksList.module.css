@@ -1,0 +1,13 @@
+.NavLinksList {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background-image: linear-gradient(#ffffff, #55bc32);
+  border: 3px solid gold;
+  text-align: left;
+  width: 100vw;
+}
+
+.LinkArticleList::first-letter {
+  margin-left: 10px;
+}

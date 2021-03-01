@@ -16,11 +16,19 @@ const CommunicationIcons = ({ handlePhoneBtn }) => {
           type="button"
           onClick={handlePhoneBtn}
         >
-          <img src={whitePhoneIcon} alt="Зателефонувати" />
+          <img
+            src={whitePhoneIcon}
+            className={style['Communication-icon']}
+            alt="Зателефонувати"
+          />
         </button>
       )}
-      <a href={emailAddress}>
-        <img src={emailIcon} alt="Написати на електронну пошту" />
+      <a href={emailAddress} className={style['Email-link']}>
+        <img
+          src={emailIcon}
+          className={style['Communication-icon']}
+          alt="Написати на електронну пошту"
+        />
       </a>
     </div>
   );

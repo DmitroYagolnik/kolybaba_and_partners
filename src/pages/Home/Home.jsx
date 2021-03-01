@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import KulibabaFoto from '../../img/Kulibaba-foto.png';
 import contactInformation from '../../servises/additionalInformation/contactInformation.json';
-import catalogOfServices from '../../servises/additionalInformation/catalogOfServices';
+import catalogOfServices from '../../servises/additionalInformation/catalogOfServices/catalogOfServices';
 import chooseImgIcon from '../../servises/chooseImgIcon';
 import style from './Home.module.scss';
 

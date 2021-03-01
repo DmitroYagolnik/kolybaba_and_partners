@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import BannerImg from '../../../../img/banner/DeclarationMTB.jpg';
+import PageImage from '../../../../img/banner/DeclarationMTB.jpg';
 
 const DeclarationMTB = () => {
   const { t } = useTranslation();
@@ -10,13 +10,11 @@ const DeclarationMTB = () => {
         {t('Occupational_health.Declaration_MTB-link')}
       </h2>
 
-      <div className="banner_img-wrapper">
-        <img
-          className="banner-img"
-          src={BannerImg}
-          alt="Ведеться небезпечна робота"
-        />
-      </div>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt="Ведеться небезпечна робота"
+      />
       <p className="page-text">{t('DeclarationMTB.paragraph_1')}</p>
       <p className="page-text">
         {t('DeclarationMTB.paragraph_2.part_1')}
