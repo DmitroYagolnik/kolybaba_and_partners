@@ -13,6 +13,9 @@ class DropdownNavMenu extends Component {
         servicePageName: PropTypes.string.isRequired,
       }).isRequired,
     ).isRequired,
+    dirName: PropTypes.string.isRequired,
+    activeNavLink: PropTypes.string.isRequired,
+    changeActiveNavLink: PropTypes.func.isRequired,
   };
 
   state = {
@@ -54,26 +57,42 @@ class DropdownNavMenu extends Component {
     }));
   };
 
+  closeDropdown = () => {
+    const { changeActiveNavLink } = this.props;
+
+    // Задаємо нову активну навігаційну іконку
+    changeActiveNavLink(this.overletRef.current.id);
+
+    // Закриваємо вспливаюче меню
+    this.toggleIsDropdownOpenState();
+  };
+
   render() {
-    const { typeServices, services } = this.props;
+    const { typeServices, services, dirName, activeNavLink } = this.props;
     const { isDropdownOpen, heightNavIcon, whithDropdownMenu } = this.state;
     const updateStyleOption = {
       top: heightNavIcon,
       width: whithDropdownMenu,
     };
+    const isActiveNavLink = activeNavLink === dirName;
     return (
       <li
         style={{ position: 'relative' }}
         ref={this.overletRef}
         onMouseEnter={this.toggleIsDropdownOpenState}
         onMouseLeave={this.toggleIsDropdownOpenState}
+        id={dirName}
       >
-        <NavItem itemTitle={typeServices} isHovered={isDropdownOpen} />
+        <NavItem
+          itemTitle={typeServices}
+          isHovered={isDropdownOpen}
+          isActiveNavLink={isActiveNavLink}
+        />
         {isDropdownOpen && (
           <Dropdown
             updateStyleOption={updateStyleOption}
             services={services}
-            closeDropdown={this.toggleIsDropdownOpenState}
+            closeDropdown={this.closeDropdown}
           />
         )}
       </li>

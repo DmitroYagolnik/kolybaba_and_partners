@@ -5,6 +5,7 @@ const catalogOfServices = [
     typeServices: 'Occupational_health-title',
     img: 'occupationalHealthIcon',
     alt: 'Occupational_health.Worker_icon-alt',
+    dirName: 'occupational_health',
     services: [
       {
         servicePageName: 'Occupational_health.Declaration_MTB-link',
@@ -34,6 +35,7 @@ const catalogOfServices = [
     typeServices: 'License.License-title',
     img: 'licenseIcon',
     alt: 'License.License_icon-alt',
+    dirName: 'license',
     services: [
       {
         servicePageName: 'License.Medical_license-link',
@@ -49,6 +51,7 @@ const catalogOfServices = [
     typeServices: 'Certificate.Certificate-title',
     img: 'certificateIcon',
     alt: 'Certificate.Certificate_icon-alt',
+    dirName: 'certificate',
     services: [
       {
         servicePageName: 'Certificate.Certificate_of_Compliance-link',
@@ -86,6 +89,7 @@ const catalogOfServices = [
     typeServices: 'Certificate_ISO.Certificate_ISO-title',
     img: 'ISOicon',
     alt: 'Certificate_ISO.Certificate_ISO_icon-alt',
+    dirName: 'certificate_ISO',
     services: [
       {
         servicePageName: 'Certificate_ISO.Certificate_ISO_9001-link',
@@ -110,6 +114,7 @@ const catalogOfServices = [
     typeServices: 'Copyright.Copyright-title',
     img: 'copyrightIcon',
     alt: 'Copyright.Copyright_icon-alt',
+    dirName: 'copyright',
     services: [
       {
         servicePageName: 'Copyright.Trademark_registration_and_protection-link',

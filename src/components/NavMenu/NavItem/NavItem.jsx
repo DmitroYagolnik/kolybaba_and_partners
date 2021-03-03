@@ -4,11 +4,18 @@ import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import style from './NavItem.module.css';
 
-const NavItem = ({ itemTitle, route, isHovered }) => {
+const NavItem = ({ itemTitle, route, isHovered, isActiveNavLink }) => {
   const { t } = useTranslation();
-  const DropdownNavItemStyle = isHovered
+
+  // Задаємо стиль, якщо активоване вспливаюче меню
+  const HoveredNavItemStyle = isHovered
     ? `${style.navItem} ${style.hoveredDropdown}`
     : style.navItem;
+
+  // Задаємо стиль, якщо
+  const DropdownNavItemStyle = isActiveNavLink
+    ? `${HoveredNavItemStyle} active`
+    : HoveredNavItemStyle;
   return (
     <>
       {route ? (
@@ -27,12 +34,14 @@ const NavItem = ({ itemTitle, route, isHovered }) => {
 NavItem.defaultProps = {
   route: '',
   isHovered: false,
+  isActiveNavLink: false,
 };
 
 NavItem.propTypes = {
   itemTitle: PropTypes.string.isRequired,
   route: PropTypes.string,
   isHovered: PropTypes.bool,
+  isActiveNavLink: PropTypes.bool,
 };
 
 export default NavItem;

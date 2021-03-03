@@ -7,7 +7,6 @@ import style from './NavMenu.module.css';
 import NavLinksList from './NavLinksList/NavLinksList';
 
 const NavMenu = ({ siteLanguage, changeLanguage }) => {
-  // const { t } = useTranslation();
   return (
     <nav className={style.nav}>
       <ul className={style.navList}>
