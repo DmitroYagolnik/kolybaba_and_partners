@@ -1,0 +1,15 @@
+.Overlay {
+  position: absolute;
+  /* top: 0; */
+  top: 36px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* height: calc(100vh - 36px); */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  background-color: rgba(0, 0, 0, 0.8);
+  /* opacity: 0.75; */
+  /* z-index: 1200; */
+}

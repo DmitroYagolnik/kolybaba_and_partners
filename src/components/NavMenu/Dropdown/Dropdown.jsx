@@ -20,11 +20,15 @@ const Dropdown = ({ updateStyleOption, services, closeDropdown }) => {
   );
 };
 
+Dropdown.defaultProps = {
+  updateStyleOption: null,
+};
+
 Dropdown.propTypes = {
   updateStyleOption: PropTypes.shape({
-    top: PropTypes.string.isRequired,
-    width: PropTypes.string.isRequired,
-  }).isRequired,
+    top: PropTypes.string,
+    width: PropTypes.string,
+  }),
   services: PropTypes.arrayOf(
     PropTypes.shape({
       routePage: PropTypes.string.isRequired,

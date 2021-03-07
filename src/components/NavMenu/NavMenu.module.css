@@ -12,17 +12,3 @@
   justify-content: space-around;
   align-items: center;
 }
-
-/* .navList {
-  display: grid;
-  grid-template-columns: auto 100px;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-items: center;
-} */
-
-@media (min-width: 768px) {
-  .navList {
-    /* justify-content: center; */
-  }
-}
