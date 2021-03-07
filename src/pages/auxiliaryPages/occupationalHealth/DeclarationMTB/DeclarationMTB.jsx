@@ -1,11 +1,11 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import PageImage from '../../../../img/banner/DeclarationMTB.jpg';
+import PageImage from '../../../../img/PagesImage/DeclarationMTB.jpg';
 
 const DeclarationMTB = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Occupational_health.Declaration_MTB-link')}
       </h2>
@@ -32,7 +32,7 @@ const DeclarationMTB = () => {
       <p className="page-text">{t('DeclarationMTB.paragraph_4')}</p>
       <p className="page-text">{t('DeclarationMTB.paragraph_5')}</p>
       <p className="page-text">{t('DeclarationMTB.paragraph_6')}</p>
-    </>
+    </div>
   );
 };
 

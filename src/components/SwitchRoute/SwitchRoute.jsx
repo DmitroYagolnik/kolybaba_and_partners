@@ -4,8 +4,6 @@
  */
 import React, { lazy, Suspense } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
-import withServicesNavLink from '../withServicesNavLink/withServicesNavLink';
 import routes from '../../servises/routes';
 
 const Home = lazy(() => import('../../pages/Home/Home'));
@@ -112,89 +110,65 @@ const SwitchRoute = () => {
     <Suspense fallback={<div>Loading...</div>}>
       <Switch>
         <Route exact path={routes.HOME} component={Home} />
-        <Route
-          path={routes.DECLARATION_MTB}
-          component={withServicesNavLink(DeclarationMTB)}
-        />
+        <Route path={routes.DECLARATION_MTB} component={DeclarationMTB} />
         <Route
           path={routes.PERMISSION_USE_HAZARDOUS_EQUIPMENT}
-          component={withServicesNavLink(PermissionUseHazardousEquipment)}
+          component={PermissionUseHazardousEquipment}
         />
         <Route
           path={routes.PERMISSION_HAZARDOUS_WORK_AND_EQUIPMENT}
-          component={withServicesNavLink(PermissionHazardousWorkAndEquipmen)}
+          component={PermissionHazardousWorkAndEquipmen}
         />
         <Route
           path={routes.IDENTIFICATION_HF_AND_PHF}
-          component={withServicesNavLink(IdentificationHFAndPHF)}
+          component={IdentificationHFAndPHF}
         />
-        <Route
-          path={routes.DEVELOPMENT_PLER}
-          component={withServicesNavLink(DevelopmentPLER)}
-        />
-        <Route
-          path={routes.MEDICAL_LICENSE}
-          component={withServicesNavLink(MedicalLicense)}
-        />
-        <Route
-          path={routes.LICENSE_PRECURSORS}
-          component={withServicesNavLink(LicensePrecursors)}
-        />
+        <Route path={routes.DEVELOPMENT_PLER} component={DevelopmentPLER} />
+        <Route path={routes.MEDICAL_LICENSE} component={MedicalLicense} />
+        <Route path={routes.LICENSE_PRECURSORS} component={LicensePrecursors} />
         <Route
           path={routes.CERTIFICATE_OF_COMPLIANCE}
-          component={withServicesNavLink(CertificateOfCompliance)}
+          component={CertificateOfCompliance}
         />
-        <Route
-          path={routes.CERTIFICATE_CE}
-          component={withServicesNavLink(CertificateCE)}
-        />
+        <Route path={routes.CERTIFICATE_CE} component={CertificateCE} />
         <Route
           path={routes.SANITARY_EPIDEMIOLOGICAL_EXAMINATION}
-          component={withServicesNavLink(SanitaryEpidemiologicalExamination)}
+          component={SanitaryEpidemiologicalExamination}
         />
         <Route
           path={routes.TECHNICAL_CONDITIONS}
-          component={withServicesNavLink(TechnicalConditions)}
+          component={TechnicalConditions}
         />
-        <Route
-          path={routes.AVIATION_RULES}
-          component={withServicesNavLink(AviationRules)}
-        />
+        <Route path={routes.AVIATION_RULES} component={AviationRules} />
         <Route
           path={routes.CATEGORIZATION_OF_ACCOMMODATION_OBJECTS}
-          component={withServicesNavLink(CategorizationOfAccommodationObjects)}
+          component={CategorizationOfAccommodationObjects}
         />
-        <Route
-          path={routes.REFUSAL_LETTER}
-          component={withServicesNavLink(RefusalLetter)}
-        />
+        <Route path={routes.REFUSAL_LETTER} component={RefusalLetter} />
         <Route
           path={routes.CERTIFICATE_ISO_9001}
-          component={withServicesNavLink(CertificateISO9001)}
+          component={CertificateISO9001}
         />
         <Route
           path={routes.CERTIFICATE_ISO_22000}
-          component={withServicesNavLink(CertificateISO22000)}
+          component={CertificateISO22000}
         />
         <Route
           path={routes.CERTIFICATE_ISO_14001}
-          component={withServicesNavLink(CertificateISO14001)}
+          component={CertificateISO14001}
         />
-        <Route
-          path={routes.STANDART_AS_EN_9100}
-          component={withServicesNavLink(StandardASEN9100)}
-        />
+        <Route path={routes.STANDART_AS_EN_9100} component={StandardASEN9100} />
         <Route
           path={routes.TRADEMARK_REGISTRATION_AND_PROTECTION}
-          component={withServicesNavLink(TrademarkRegistrationAndProtection)}
+          component={TrademarkRegistrationAndProtection}
         />
         <Route
           path={routes.PRELIMINARY_TRADEMARK_SEARCH}
-          component={withServicesNavLink(PreliminaryTrademarkSearch)}
+          component={PreliminaryTrademarkSearch}
         />
         <Route
           path={routes.PATENT_FOR_THE_INVENTION}
-          component={withServicesNavLink(PatentForTheInvention)}
+          component={PatentForTheInvention}
         />
         <Redirect to={routes.HOME} />
       </Switch>

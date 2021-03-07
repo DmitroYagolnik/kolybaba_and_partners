@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const CategorizationOfAccommodationObjects = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate.Categorization_of_accommodation_objects-link')}
       </h2>
@@ -34,7 +34,7 @@ const CategorizationOfAccommodationObjects = () => {
       <p className="page-text">
         {t('CategorizationOfAccommodationObjects.paragraph_3')}
       </p>
-    </>
+    </div>
   );
 };
 

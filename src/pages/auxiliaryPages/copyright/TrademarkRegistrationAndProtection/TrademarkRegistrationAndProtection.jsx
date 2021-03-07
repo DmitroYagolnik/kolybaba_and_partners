@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const TrademarkRegistrationAndProtection = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Copyright.Trademark_registration_and_protection-link')}
       </h2>
@@ -78,7 +78,7 @@ const TrademarkRegistrationAndProtection = () => {
       <p className="page-text">
         {t('TrademarkRegistrationAndProtection.paragraph_12')}
       </p>
-    </>
+    </div>
   );
 };
 

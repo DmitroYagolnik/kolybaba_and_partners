@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const DevelopmentPLER = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Occupational_health.development_PLER-link')}
       </h2>
@@ -43,7 +43,7 @@ const DevelopmentPLER = () => {
           {t('DevelopmentPLER.TextItem_2-4')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

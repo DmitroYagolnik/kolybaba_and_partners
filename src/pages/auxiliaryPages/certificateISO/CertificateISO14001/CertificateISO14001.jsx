@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const CertificateISO14001 = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate_ISO.Certificate_ISO_14001-link')}
       </h2>
@@ -44,7 +44,7 @@ const CertificateISO14001 = () => {
           {t('CertificateISO14001.TextItem_2-4')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

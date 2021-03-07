@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const PermissionHazardousWorkAndEquipmen = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Occupational_health.Permission_hazardous_work_and_equipment-link')}
       </h2>
@@ -89,7 +89,7 @@ const PermissionHazardousWorkAndEquipmen = () => {
           {t('PermissionHazardousWorkAndEquipmen.TextItem_3-3')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

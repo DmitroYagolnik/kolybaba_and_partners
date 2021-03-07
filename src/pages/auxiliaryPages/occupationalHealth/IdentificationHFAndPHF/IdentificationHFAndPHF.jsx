@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const IdentificationHFAndPHF = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Occupational_health.Identification_HF_and_PHF-link')}
       </h2>
@@ -63,7 +63,7 @@ const IdentificationHFAndPHF = () => {
       <p className="page-text">{t('IdentificationHFAndPHF.paragraph_8')}</p>
       <p className="page-text">{t('IdentificationHFAndPHF.paragraph_9')}</p>
       <p className="page-text">{t('IdentificationHFAndPHF.paragraph_10')}</p>
-    </>
+    </div>
   );
 };
 

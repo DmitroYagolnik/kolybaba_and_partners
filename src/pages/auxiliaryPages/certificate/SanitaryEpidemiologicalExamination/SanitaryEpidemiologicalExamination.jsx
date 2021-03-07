@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const SanitaryEpidemiologicalExamination = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate.Sanitary-epidemiological_examination-link')}
       </h2>
@@ -14,7 +14,7 @@ const SanitaryEpidemiologicalExamination = () => {
       <p className="page-text">
         {t('SanitaryEpidemiologicalExamination.paragraph_2')}
       </p>
-    </>
+    </div>
   );
 };
 

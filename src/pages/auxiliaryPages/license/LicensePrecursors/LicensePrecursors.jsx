@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const LicensePrecursors = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('License.License_precursors-link')}
       </h2>
@@ -65,7 +65,7 @@ const LicensePrecursors = () => {
       </ul>
       <p className="page-text">{t('LicensePrecursors.paragraph_6')}</p>
       <p className="page-text">{t('LicensePrecursors.paragraph_7')}</p>
-    </>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const MedicalLicense = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('License.Medical_license-link')}
       </h2>
@@ -51,7 +51,7 @@ const MedicalLicense = () => {
       </ul>
       <p className="page-text">{t('MedicalLicense.paragraph_7')}</p>
       <p className="page-text">{t('MedicalLicense.paragraph_8')}</p>
-    </>
+    </div>
   );
 };
 

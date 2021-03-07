@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const PreliminaryTrademarkSearch = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Copyright.Preliminary_trademark_search-link')}
       </h2>
@@ -46,7 +46,7 @@ const PreliminaryTrademarkSearch = () => {
           {t('PreliminaryTrademarkSearch.TextItem_3-2')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

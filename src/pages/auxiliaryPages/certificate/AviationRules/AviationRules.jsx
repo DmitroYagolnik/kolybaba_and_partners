@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const AviationRules = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate.Aviation_rules-link')}
       </h2>
@@ -79,7 +79,7 @@ const AviationRules = () => {
       <p className="page-text">{t('AviationRules.paragraph_4')}</p>
       <p className="page-text">{t('AviationRules.paragraph_5')}</p>
       <p className="page-text">{t('AviationRules.paragraph_6')}</p>
-    </>
+    </div>
   );
 };
 

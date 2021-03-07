@@ -4,9 +4,9 @@ import { useTranslation } from 'react-i18next';
 const PatentForTheInvention = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
-        {t('Copyright.Trademark_registration_and_protection-link')}
+        {t('Copyright.Patent_for_the_invention-link')}
       </h2>
       <p className="page-text">
         {t('PatentForTheInvention.paragraph_1.part_1')}
@@ -129,7 +129,7 @@ const PatentForTheInvention = () => {
       <p className="page-text">{t('PatentForTheInvention.paragraph_11')}</p>
       <p className="page-text">{t('PatentForTheInvention.paragraph_12')}</p>
       <p className="page-text">{t('PatentForTheInvention.paragraph_13')}</p>
-    </>
+    </div>
   );
 };
 

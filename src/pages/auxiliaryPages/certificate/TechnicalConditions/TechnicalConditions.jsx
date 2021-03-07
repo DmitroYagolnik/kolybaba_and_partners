@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const TechnicalConditions = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate.Technical_conditions-link')}
       </h2>
@@ -49,7 +49,7 @@ const TechnicalConditions = () => {
           {t('TechnicalConditions.TextItem_2-4')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 

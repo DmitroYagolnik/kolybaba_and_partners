@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 const StandardASEN9100 = () => {
   const { t } = useTranslation();
   return (
-    <>
+    <div className="content">
       <h2 className="page_services-title">
         {t('Certificate_ISO.Standard_AS/EN_9100-link')}
       </h2>
@@ -39,7 +39,7 @@ const StandardASEN9100 = () => {
           {t('StandardASEN9100.TextItem_1-9')}
         </li>
       </ul>
-    </>
+    </div>
   );
 };
 
