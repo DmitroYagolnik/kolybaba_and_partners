@@ -10,6 +10,7 @@ const NavItem = ({
   isHovered,
   isActiveNavLink,
   openDropdown,
+  changeActiveNavLink,
 }) => {
   const { t } = useTranslation();
 
@@ -22,12 +23,21 @@ const NavItem = ({
   const DropdownNavItemStyle = isActiveNavLink
     ? `${HoveredNavItemStyle} active`
     : HoveredNavItemStyle;
-
+  // console.log('changeActiveNavLink', changeActiveNavLink);
   let NavComponent;
   if (route) {
+    const setDefaultActiveNavLink = () => {
+      changeActiveNavLink('');
+    };
+
     NavComponent = (
       <li>
-        <NavLink exact to={route} className={style.navItem}>
+        <NavLink
+          exact
+          to={route}
+          onClick={setDefaultActiveNavLink}
+          className={style.navItem}
+        >
           {t(itemTitle)}
         </NavLink>
       </li>

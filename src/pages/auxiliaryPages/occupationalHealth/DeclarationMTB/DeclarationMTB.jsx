@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import PageImage from '../../../../img/PagesImage/DeclarationMTB.jpg';
+import PageImage from '../../../../img/PagesImage/DeclarationMTB.png';
 
 const DeclarationMTB = () => {
   const { t } = useTranslation();
@@ -13,7 +13,7 @@ const DeclarationMTB = () => {
       <img
         className="page-image"
         src={PageImage}
-        alt="Ведеться небезпечна робота"
+        alt={t('DeclarationMTB.PageImageAlt')}
       />
       <p className="page-text">{t('DeclarationMTB.paragraph_1')}</p>
       <p className="page-text">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/standard_AS_EN_9100.jpg';
 
 const StandardASEN9100 = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const StandardASEN9100 = () => {
       <h2 className="page_services-title">
         {t('Certificate_ISO.Standard_AS/EN_9100-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('StandardASEN9100.PageImageAlt')}
+      />
       <p className="page-text">{t('StandardASEN9100.paragraph_1')}</p>
       <p className="page-text">{t('StandardASEN9100.paragraph_2')}</p>
       <ul className="page_text-list">

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/PermissionUseHazardousEquipment.png';
 
 const PermissionUseHazardousEquipment = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const PermissionUseHazardousEquipment = () => {
       <h2 className="page_services-title">
         {t('Occupational_health.Permission_use_hazardous_equipment-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('PermissionUseHazardousEquipment.PageImageAlt')}
+      />
       <p className="page-text">
         {t('PermissionUseHazardousEquipment.paragraph_1')}
       </p>

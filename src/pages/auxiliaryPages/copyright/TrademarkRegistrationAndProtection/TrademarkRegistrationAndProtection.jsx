@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/trademark_registration_and_protection.jpg';
 
 const TrademarkRegistrationAndProtection = () => {
   const { t } = useTranslation();
@@ -8,6 +9,7 @@ const TrademarkRegistrationAndProtection = () => {
       <h2 className="page_services-title">
         {t('Copyright.Trademark_registration_and_protection-link')}
       </h2>
+      <img className="page-image" src={PageImage} alt="Таймс-сквер" />
       <p className="page-text">
         {t('TrademarkRegistrationAndProtection.paragraph_1')}
       </p>

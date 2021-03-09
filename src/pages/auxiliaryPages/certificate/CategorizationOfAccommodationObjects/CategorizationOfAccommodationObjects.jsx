@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/categorization_of_accommodation_objects.jpg';
 
 const CategorizationOfAccommodationObjects = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const CategorizationOfAccommodationObjects = () => {
       <h2 className="page_services-title">
         {t('Certificate.Categorization_of_accommodation_objects-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('CategorizationOfAccommodationObjects.PageImageAlt')}
+      />
       <p className="page-text">
         {t('CategorizationOfAccommodationObjects.paragraph_1.part_1')}
         <a

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/MedicalLicense.jpg';
 
 const MedicalLicense = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const MedicalLicense = () => {
       <h2 className="page_services-title">
         {t('License.Medical_license-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('MedicalLicense.PageImageAlt')}
+      />
       <p className="page-text">
         <strong>{t('MedicalLicense.paragraph_1.part_1')}</strong>
         {t('MedicalLicense.paragraph_1.part_2')}

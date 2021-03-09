@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/IdentificationHFAndPHF.png';
 
 const IdentificationHFAndPHF = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const IdentificationHFAndPHF = () => {
       <h2 className="page_services-title">
         {t('Occupational_health.Identification_HF_and_PHF-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('IdentificationHFAndPHF.PageImageAlt')}
+      />
       <p className="page-text">
         {t('IdentificationHFAndPHF.paragraph_1.part_1')}
         <a

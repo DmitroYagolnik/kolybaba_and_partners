@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/Development_PLER.png';
 
 const DevelopmentPLER = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const DevelopmentPLER = () => {
       <h2 className="page_services-title">
         {t('Occupational_health.development_PLER-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('DevelopmentPLER.PageImageAlt')}
+      />
       <p className="page-text">{t('DevelopmentPLER.paragraph_1')}</p>
       <p className="page-text">{t('DevelopmentPLER.paragraph_2')}</p>
       <p className="page-text">{t('DevelopmentPLER.paragraph_3')}</p>

@@ -32,7 +32,17 @@
 }
 
 @media (min-width: 768px) {
+  .navItem {
+    font-size: 16px;
+  }
+
   .navItem::first-letter {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navItem {
+    font-size: 18px;
   }
 }

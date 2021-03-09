@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/certificate_ISO_9001.jpg';
 
 const CertificateISO9001 = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const CertificateISO9001 = () => {
       <h2 className="page_services-title">
         {t('Certificate_ISO.Certificate_ISO_9001-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('CertificateISO9001.PageImageAlt')}
+      />
       <p className="page-text">{t('CertificateISO9001.paragraph_1')}</p>
       <p className="page-text">{t('CertificateISO9001.paragraph_2')}</p>
       <p className="page-text">{t('CertificateISO9001.paragraph_3')}</p>

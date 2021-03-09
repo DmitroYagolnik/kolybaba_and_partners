@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import PageImage from '../../../../img/PagesImage/LicensePrecursors.jpg';
 
 const LicensePrecursors = () => {
   const { t } = useTranslation();
@@ -8,6 +9,11 @@ const LicensePrecursors = () => {
       <h2 className="page_services-title">
         {t('License.License_precursors-link')}
       </h2>
+      <img
+        className="page-image"
+        src={PageImage}
+        alt={t('LicensePrecursors.PageImageAlt')}
+      />
       <p className="page-text">{t('LicensePrecursors.paragraph_1')}</p>
       <p className="page-text">{t('LicensePrecursors.paragraph_2')}</p>
       <ul className="page_text-list">

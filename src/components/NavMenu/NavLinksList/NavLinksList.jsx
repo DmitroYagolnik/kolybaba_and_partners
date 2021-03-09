@@ -31,7 +31,11 @@ class NavLinksList extends Component {
           <>
             {matches.mobile && (
               <ul className={style.NavLinksList}>
-                <NavItem itemTitle="NavMenu.Home_page" route={routes.HOME} />
+                <NavItem
+                  itemTitle="NavMenu.Home_page"
+                  route={routes.HOME}
+                  changeActiveNavLink={this.setActiveNavLink}
+                />
 
                 {catalogOfServices.map(
                   ({ typeServices, services, dirName }) => {
@@ -52,7 +56,11 @@ class NavLinksList extends Component {
             )}
             {matches.noMobile && (
               <>
-                <NavItem itemTitle="NavMenu.Home_page" route={routes.HOME} />
+                <NavItem
+                  itemTitle="NavMenu.Home_page"
+                  route={routes.HOME}
+                  changeActiveNavLink={this.setActiveNavLink}
+                />
                 {catalogOfServices.map(
                   ({ typeServices, services, dirName }) => {
                     return (
